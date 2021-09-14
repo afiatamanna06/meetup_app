@@ -6,9 +6,11 @@ const Main = () => {
     return (
         <div>
             <Box>
-                <Container>
-                    <Box>
-                        
+                <Container maxWidth="container.xl">
+                    <Box d="flex" alignItems="center" flexDirection='row' py='20'>
+                        <Box>
+
+                        </Box>
                     </Box>
                 </Container>
             </Box> 
