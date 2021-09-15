@@ -49,7 +49,9 @@ const Main = () => {
                     </Box>
                     <Box>
                         <Image w='100%' borderRadius='lg' src={imageThree} alt='image three'></Image>
-
+                        <Button colorScheme='teal' variant='link' mt='5'>
+                        Connect over tech
+                        </Button>
                     </Box>
                 </Grid>
             </Container>
