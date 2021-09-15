@@ -8,6 +8,7 @@ import { Grid } from '@chakra-ui/layout'
 import imageOne from './image-one.jpg'
 import imageTwo from './image-two.jpg'
 import imageThree from './image-three.jpg'
+import { Button } from '@chakra-ui/button'
 
 const Main = () => {
     return (
@@ -35,15 +36,15 @@ const Main = () => {
             <Container maxWidth='container.xl' mt={10}>
                 <Grid templateColumns="repeat(3, 1fr)">
                     <Box>
-                        Make new friend
                         <Image w='100%' borderRadius='lg' src={imageOne} alt='image three'></Image>
+                        <Button colorScheme='teal' variant='link' mt='5'>
+                        Make new friend
+                        </Button>
                     </Box>
                     <Box>
-                        Make new friend
                         <Image w='100%' borderRadius='lg' src={imageTwo} alt='image three'></Image>
                     </Box>
                     <Box>
-                        Make new friend
                         <Image w='100%' borderRadius='lg' src={imageThree} alt='image three'></Image>
                     </Box>
                 </Grid>
