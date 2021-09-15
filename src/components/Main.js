@@ -43,9 +43,13 @@ const Main = () => {
                     </Box>
                     <Box>
                         <Image w='100%' borderRadius='lg' src={imageTwo} alt='image three'></Image>
+                        <Button colorScheme='teal' variant='link' mt='5'>
+                        Explore the outdoors
+                        </Button>
                     </Box>
                     <Box>
                         <Image w='100%' borderRadius='lg' src={imageThree} alt='image three'></Image>
+
                     </Box>
                 </Grid>
             </Container>
