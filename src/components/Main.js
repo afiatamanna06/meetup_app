@@ -15,14 +15,14 @@ const Main = () => {
                             <Heading>
                                 <Box fontWeight='black'>Dive in! There are so many things to do on Meetup</Box>
                             </Heading>
-                            <Box fontWeight="medium">
+                            <Box mt='1' fontWeight="medium">
                                 Join a group to meet people, make friends, find support, grow a
                                 business, and explore your interests. Thousands of events are
                                 happening every day, both online and in person!
                             </Box>
                         </Box>
                         <Box>
-                            <Image w='100%' src={Illustration} alt='illustration'/>
+                            <Image w='40' h='40' src={Illustration} alt='illustration'/>
                         </Box>
                     </Box>
                 </Container>
