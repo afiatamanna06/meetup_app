@@ -38,7 +38,10 @@ const Main = () => {
                         Make new friend
                         <Image w='100%' borderRadius='lg' src={imageOne} alt='image three'></Image>
                     </Box>
-                    <Box></Box>
+                    <Box>
+                        Make new friend
+                        <Image w='100%' borderRadius='lg' src={imageOne} alt='image three'></Image>
+                    </Box>
                     <Box></Box>
                 </Grid>
             </Container>
