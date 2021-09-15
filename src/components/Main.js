@@ -5,6 +5,7 @@ import { Heading } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 import Illustration from './illustration.svg'
 import { Grid } from '@chakra-ui/layout'
+import imageOne from './image-one.jpg'
 
 const Main = () => {
     return (
@@ -32,7 +33,7 @@ const Main = () => {
             <Container maxWidth='container.xl' mt={10}>
                 <Grid templateColumns="repeat(3, 1fr)">
                     <Box>
-                        <Image></Image>
+                        <Image w='100%' borderRadius='lg' src={imageOne} alt='image three'></Image>
                     </Box>
                     <Box></Box>
                     <Box></Box>
