@@ -6,6 +6,8 @@ import { Image } from '@chakra-ui/image'
 import Illustration from './illustration.svg'
 import { Grid } from '@chakra-ui/layout'
 import imageOne from './image-one.jpg'
+import imageTwo from './image-two.jpg'
+import imageThree from './image-three.jpg'
 
 const Main = () => {
     return (
@@ -33,6 +35,7 @@ const Main = () => {
             <Container maxWidth='container.xl' mt={10}>
                 <Grid templateColumns="repeat(3, 1fr)">
                     <Box>
+                        Make new friend
                         <Image w='100%' borderRadius='lg' src={imageOne} alt='image three'></Image>
                     </Box>
                     <Box></Box>
