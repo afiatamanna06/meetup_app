@@ -40,9 +40,12 @@ const Main = () => {
                     </Box>
                     <Box>
                         Make new friend
-                        <Image w='100%' borderRadius='lg' src={imageOne} alt='image three'></Image>
+                        <Image w='100%' borderRadius='lg' src={imageTwo} alt='image three'></Image>
                     </Box>
-                    <Box></Box>
+                    <Box>
+                        Make new friend
+                        <Image w='100%' borderRadius='lg' src={imageThree} alt='image three'></Image>
+                    </Box>
                 </Grid>
             </Container>
         </div>
