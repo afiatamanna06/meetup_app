@@ -2,6 +2,7 @@ import React from 'react'
 import { Box } from '@chakra-ui/layout'
 import { Container } from '@chakra-ui/layout'
 import { Heading } from '@chakra-ui/layout'
+import { Image } from '@chakra-ui/image'
 
 const Main = () => {
     return (
@@ -18,6 +19,9 @@ const Main = () => {
                                 business, and explore your interests. Thousands of events are
                                 happening every day, both online and in person!
                             </Box>
+                        </Box>
+                        <Box>
+                            <Image src=''/>
                         </Box>
                     </Box>
                 </Container>
