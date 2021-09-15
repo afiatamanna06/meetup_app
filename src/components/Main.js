@@ -3,6 +3,7 @@ import { Box } from '@chakra-ui/layout'
 import { Container } from '@chakra-ui/layout'
 import { Heading } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
+import Illustration from './illustration.svg'
 
 const Main = () => {
     return (
@@ -21,7 +22,7 @@ const Main = () => {
                             </Box>
                         </Box>
                         <Box>
-                            <Image src=''/>
+                            <Image w='100%' src={Illustration} alt='illustration'/>
                         </Box>
                     </Box>
                 </Container>
