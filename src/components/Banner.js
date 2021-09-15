@@ -10,7 +10,7 @@ const Banner = () => {
             <Box d='flex' alignItems='center' justifyContent='space-between' ml={16} mr={16}>
                 <Image boxSize='90px' src={brandLogo} alt='brand'/>
                 <Box>
-                    <Button pr={3} color='gray' colorScheme='white' fontSize='lg' variant='ghost' background='white'>Log In</Button>
+                    <Button pr={3} mr={3} color='gray' colorScheme='white' fontSize='lg' variant='ghost' background='white'>Log In</Button>
                     <Button  colorScheme='white' color='gray' fontSize='lg' variant='ghost' background='white'>Sign Up</Button>
                 </Box>
             </Box>
