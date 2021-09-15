@@ -27,6 +27,12 @@ const Main = () => {
                     </Box>
                 </Container>
             </Box> 
+
+            <Container maxWidth='container.xl' mt={10}>
+                <Grid templateColumns="repeat(3, 1fr)">
+
+                </Grid>
+            </Container>
         </div>
     )
 }
