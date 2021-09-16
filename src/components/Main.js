@@ -87,8 +87,10 @@ const Main = () => {
             </Container>
 
             <Container maxWidth='container.xl' mt='20'>
-                <Grid>
-                    
+                <Grid templateColumns='repeat(2, 1fr)' gap={6}>
+                    <Box>
+                        <Heading size='lg' mb='7'></Heading>
+                    </Box>
                 </Grid>
             </Container>
         </div>
