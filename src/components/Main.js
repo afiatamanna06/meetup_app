@@ -10,6 +10,13 @@ import imageTwo from '../assets/image-two.jpg'
 import imageThree from '../assets/image-three.jpg'
 import rightArrow from '../assets/right-arrow.svg'
 import { Button } from '@chakra-ui/button'
+import {
+    FormControl,
+    FormLabel,
+    FormErrorMessage,
+    FormHelperText,
+    Input,
+  } from "@chakra-ui/react"
 
 const Main = () => {
     return (
@@ -93,8 +100,9 @@ const Main = () => {
                         <Box d='flex' alignItems='center' flexDirection='row' w='100%'></Box>
                         <Box w='100%' mr='2'></Box>
                         <FormControl>
-                            <Box>
-                                
+                            <Box pos='relative'>
+`                               <Input pl={8} placeholder="Search for 'tennis'" type='text' w='100%'></Input>
+                                <Box pos='absolute' top='3' left='2'></Box>
                             </Box>
                         </FormControl>
                     </Box>
