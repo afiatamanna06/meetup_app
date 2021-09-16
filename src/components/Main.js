@@ -8,6 +8,7 @@ import { Grid } from '@chakra-ui/layout'
 import imageOne from '../assets/image-one.jpg'
 import imageTwo from '../assets/image-two.jpg'
 import imageThree from '../assets/image-three.jpg'
+import rightArrow from '../assets/right-arrow.svg'
 import { Button } from '@chakra-ui/button'
 
 const Main = () => {
@@ -39,6 +40,7 @@ const Main = () => {
                         <Image w='100%' borderRadius='lg' src={imageOne} alt='image three'></Image>
                         <Button colorScheme='teal' variant='link' mt='5'>
                         Make new friend
+                        <Image w='5%' ml='2' src={rightArrow} alt='right arrow'></Image>
                         </Button>
                     </Box>
                     <Box>
