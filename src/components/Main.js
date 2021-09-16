@@ -74,6 +74,9 @@ const Main = () => {
                     <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
                         Share launguage + culture
                     </Badge>
+                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
+                        Read with friends
+                    </Badge>
                 </Box>
             </Container>
         </div>
