@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
-import brandLogo from './brand-logo.svg'
+import brandLogo from '../assets/brand-logo.svg'
 import { Button } from '@chakra-ui/button'
 
 const Banner = () => {
