@@ -47,12 +47,14 @@ const Main = () => {
                         <Image w='100%' borderRadius='lg' src={imageTwo} alt='image three'></Image>
                         <Button colorScheme='teal' variant='link' mt='5'>
                         Explore the outdoors
+                        <Image w='5%' ml='2' src={rightArrow} alt='right arrow'></Image>
                         </Button>
                     </Box>
                     <Box>
                         <Image w='100%' borderRadius='lg' src={imageThree} alt='image three'></Image>
                         <Button colorScheme='teal' variant='link' mt='5'>
                         Connect over tech
+                        <Image w='5%' ml='2' src={rightArrow} alt='right arrow'></Image>
                         </Button>
                     </Box>
                 </Grid>
