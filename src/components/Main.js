@@ -106,6 +106,22 @@ const Main = () => {
                                             <svg xmlns="http://www.w3.org/2000/svg" w='18' h='18' viewBox='0 0 20 20' fill='#c0c0c0'>
                                             <path
                                             fillRule="evenodd"
+                                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                            clipRule="evenodd"
+                                            />
+                                            </svg>
+                                        </Box>
+                                    </Box>
+                                </FormControl>
+                            </Box>
+                            <Box w='100%' mr='2'>
+                                <FormControl>
+                                    <Box pos='relative'>
+        `                               <Input pl={8} placeholder="Search for 'tennis'" type='text' w='100%'></Input>
+                                        <Box pos='absolute' top='3' left='2'>
+                                            <svg xmlns="http://www.w3.org/2000/svg" w='18' h='18' viewBox='0 0 20 20' fill='#c0c0c0'>
+                                            <path
+                                            fillRule="evenodd"
                                             d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
                                             clipRule="evenodd"
                                             />
@@ -114,7 +130,6 @@ const Main = () => {
                                     </Box>
                                 </FormControl>
                             </Box>
-                            
                         </Box>
                     </Box>
                 </Grid>
