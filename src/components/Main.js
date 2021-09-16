@@ -90,6 +90,13 @@ const Main = () => {
                 <Grid templateColumns='repeat(2, 1fr)' gap={6}>
                     <Box>
                         <Heading size='lg' mb='7'></Heading>
+                        <Box d='flex' alignItems='center' flexDirection='row' w='100%'></Box>
+                        <Box w='100%' mr='2'></Box>
+                        <FormControl>
+                            <Box>
+                                
+                            </Box>
+                        </FormControl>
                     </Box>
                 </Grid>
             </Container>
