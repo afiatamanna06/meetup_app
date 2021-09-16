@@ -62,8 +62,8 @@ const Main = () => {
 
             <Container maxWidth='container.xl'>
                 <Box flexDirection='row' display='flex' flexWrap='wrap' justifyContent='space-between'>
-                    <Badge>
-
+                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
+                        Boost your career
                     </Badge>
                 </Box>
             </Container>
