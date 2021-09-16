@@ -68,6 +68,9 @@ const Main = () => {
                     <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
                         Find your zen
                     </Badge>
+                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
+                        Get moving
+                    </Badge>
                 </Box>
             </Container>
         </div>
