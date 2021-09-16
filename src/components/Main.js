@@ -9,7 +9,7 @@ import imageOne from '../assets/image-one.jpg'
 import imageTwo from '../assets/image-two.jpg'
 import imageThree from '../assets/image-three.jpg'
 import rightArrow from '../assets/right-arrow.svg'
-import searchLogo from '../assets/loupe.svg'
+import searchLogo from '../assets/loupe.png'
 import { Button } from '@chakra-ui/button'
 import {
     FormControl,
@@ -102,7 +102,7 @@ const Main = () => {
                             <Box w='100%' mr='2'>
                                 <FormControl>
                                     <Box pos='relative'>
-        `                               <Input pl={8} placeholder="Search for 'tennis'" type='text' w='100%' backgroundImage={searchLogo} backgroundPosition='left' backgroundSize='contain' backgroundRepeat='no-repeat'>
+        `                               <Input pl={8} placeholder="Search for 'tennis'" type='text' w='100%' backgroundImage={searchLogo} backgroundPosition='left' backgroundRepeat='no-repeat'>
                                         </Input>
                                     </Box>
                                 </FormControl>
