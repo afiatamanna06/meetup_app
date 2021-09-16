@@ -102,7 +102,10 @@ const Main = () => {
                         <FormControl>
                             <Box pos='relative'>
 `                               <Input pl={8} placeholder="Search for 'tennis'" type='text' w='100%'></Input>
-                                <Box pos='absolute' top='3' left='2'></Box>
+                                <Box pos='absolute' top='3' left='2'>
+                                    <svg w='18' h='18'></svg>
+                                    <path></path>
+                                </Box>
                             </Box>
                         </FormControl>
                     </Box>
