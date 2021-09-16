@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box } from '@chakra-ui/layout'
+import { Badge, Box } from '@chakra-ui/layout'
 import { Container } from '@chakra-ui/layout'
 import { Heading } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
@@ -58,6 +58,14 @@ const Main = () => {
                         </Button>
                     </Box>
                 </Grid>
+            </Container>
+
+            <Container maxWidth='container.xl'>
+                <Box flexDirection='row' display='flex' flexWrap='wrap' justifyContent='space-between'>
+                    <Badge>
+
+                    </Badge>
+                </Box>
             </Container>
         </div>
     )
