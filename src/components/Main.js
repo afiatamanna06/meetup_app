@@ -80,6 +80,9 @@ const Main = () => {
                     <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
                         Write together
                     </Badge>
+                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
+                        Hone your craft
+                    </Badge>
                 </Box>
             </Container>
         </div>
