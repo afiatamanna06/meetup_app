@@ -122,6 +122,29 @@ const Main = () => {
                     </Box>
                     <Box>
                         <Heading size='lg' mb='7'>See what’s happening</Heading>
+                        <Box display='flex' flexWrap='wrap' justifyContent='flex-start'>
+                            <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
+                                Starting soon
+                            </Badge>
+                            <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
+                                Today
+                            </Badge>
+                            <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
+                                
+                            </Badge>
+                            <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
+                                
+                            </Badge>
+                            <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
+                                
+                            </Badge>
+                            <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
+                                
+                            </Badge>
+                            <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
+                                
+                            </Badge>
+                        </Box>
                     </Box>
                 </Grid>
             </Container>
