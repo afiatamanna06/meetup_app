@@ -20,6 +20,9 @@ const ItWorks = () => {
                             <Image w='100%' boxSize='160px' src={joinGroup} alt='brand'></Image>
                             <Heading>
                                 <Link>
+                                    <Box>
+                                        Join a Group
+                                    </Box>
                                 </Link>
                             </Heading>
                         </Box>
