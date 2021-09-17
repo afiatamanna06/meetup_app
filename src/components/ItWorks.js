@@ -13,7 +13,7 @@ const ItWorks = () => {
                     </Box>
 
                     <Grid templateColumns='repeat(3, 1fr)' gap='6'>
-                        <Box>
+                        <Box mx='auto' align='center'>
 
                         </Box>
                         <Box></Box>
