@@ -120,6 +120,9 @@ const Main = () => {
                             <Box fontWeight='black'>Search</Box>
                         </Button>
                     </Box>
+                    <Box>
+                        <Heading size='lg' mb='7'>See what’s happening</Heading>
+                    </Box>
                 </Grid>
             </Container>
         </div>
