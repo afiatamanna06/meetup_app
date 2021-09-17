@@ -130,19 +130,19 @@ const Main = () => {
                                 Today
                             </Badge>
                             <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
-                                
+                                Tomorrow
                             </Badge>
                             <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
-                                
+                                This Week
                             </Badge>
                             <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
-                                
+                                Online
                             </Badge>
                             <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
-                                
+                                In person
                             </Badge>
                             <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
-                                
+                                Trending near you
                             </Badge>
                         </Box>
                     </Box>
