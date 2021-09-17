@@ -11,6 +11,14 @@ const ItWorks = () => {
                         Meet new people who share your interests through online and in-person
                         events. It’s free to create an account.
                     </Box>
+
+                    <Grid templateColumns='repeat(3, 1fr)' gap='6'>
+                        <Box>
+
+                        </Box>
+                        <Box></Box>
+                        <Box></Box>
+                    </Grid>
                 </Container>
             </Box>
         </div>
