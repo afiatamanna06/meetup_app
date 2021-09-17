@@ -116,7 +116,7 @@ const Main = () => {
                                 </FormControl>
                             </Box>
                         </Box>
-                        <Button color='white' bg='red.200' fontSize='large' w='100%' mt='5' pt='6' pb='6'>
+                        <Button _hover={{ opacity: "0.8" }} _focus={{ outline: 0 }} color='white' bg='red.200' fontSize='large' w='100%' mt='5' pt='6' pb='6'>
                             <Box fontWeight='black'>Search</Box>
                         </Button>
                     </Box>
