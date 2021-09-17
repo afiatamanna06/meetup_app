@@ -1,5 +1,8 @@
 import React from 'react'
-import { Box, Container, Heading } from '@chakra-ui/layout'
+import { Box, Container, Heading, Link } from '@chakra-ui/layout'
+import { Grid } from '@chakra-ui/layout'
+import { Image } from '@chakra-ui/image'
+import joinGroup from '../assets/joinagroup.svg'
 
 const ItWorks = () => {
     return (
@@ -14,7 +17,11 @@ const ItWorks = () => {
 
                     <Grid templateColumns='repeat(3, 1fr)' gap='6'>
                         <Box mx='auto' align='center'>
-
+                            <Image w='100%' boxSize='160px' src={joinGroup} alt='brand'></Image>
+                            <Heading>
+                                <Link>
+                                </Link>
+                            </Heading>
                         </Box>
                         <Box></Box>
                         <Box></Box>
