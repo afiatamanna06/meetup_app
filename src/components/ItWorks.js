@@ -7,7 +7,7 @@ const ItWorks = () => {
             <Box>
                 <Container maxWidth='container.xl' my='20'>
                     <Heading textAlign='center' size='lg' pb='2'>How Meetup works</Heading>
-                    <Box textAlign='center'>
+                    <Box align='center' mx='auto' maxWidth='700px' pb='10' fontSize='xl'>
                         Meet new people who share your interests through online and in-person
                         events. It’s free to create an account.
                     </Box>
