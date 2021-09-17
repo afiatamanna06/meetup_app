@@ -116,6 +116,9 @@ const Main = () => {
                                 </FormControl>
                             </Box>
                         </Box>
+                        <Button color='white' bg='red.200' fontSize='large' w='100%' mt='5' pt='6' pb='6'>
+                            <Box fontWeight='black'>Search</Box>
+                        </Button>
                     </Box>
                 </Grid>
             </Container>
