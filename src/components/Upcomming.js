@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Container, Heading } from '@chakra-ui/layout'
+import { Box, Container, Heading, Link } from '@chakra-ui/layout'
 import Upcommingone from '../assets/upcomming-one.png'
 import Upcommingtwo from '../assets/upcomming-two.jpg'
 import Upcommingthree from '../assets/upcomming-three.jpg'
@@ -16,7 +16,11 @@ const Upcomming = () => {
                                 Upcoming online events
                             </Heading>
                         </Box>
-                        <Box></Box>
+                        <Box>
+                            <Link>
+                                Explore more events
+                            </Link>
+                        </Box>
                     </Box>
                 </Container>
             </Box>
