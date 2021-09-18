@@ -63,7 +63,7 @@ const ItWorks = () => {
                         </Box>
                     </Grid>
                     <Box align='center' mt='16'>
-                        <Button>
+                        <Button _hover={{ opacity: "0.8" }} _focus={{ outline: 0 }} color='white' bg='blue.100' fontWeight='normal' size='md'>
                             Join Meetup
                         </Button>
                     </Box>
