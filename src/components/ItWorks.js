@@ -5,6 +5,7 @@ import { Image } from '@chakra-ui/image'
 import joinGroup from '../assets/joinagroup.svg'
 import ticket from '../assets/ticket.svg'
 import startGroup from '../assets/start-group.svg'
+import { Button } from '@chakra-ui/react'
 
 const ItWorks = () => {
     return (
@@ -61,6 +62,11 @@ const ItWorks = () => {
                             </p>
                         </Box>
                     </Grid>
+                    <Box align='center' mt='16'>
+                        <Button>
+                            Join Meetup
+                        </Button>
+                    </Box>
                 </Container>
             </Box>
         </div>
