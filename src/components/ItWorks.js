@@ -3,6 +3,7 @@ import { Box, Container, Heading, Link } from '@chakra-ui/layout'
 import { Grid } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 import joinGroup from '../assets/joinagroup.svg'
+import ticket from '../assets/ticket.svg'
 
 const ItWorks = () => {
     return (
@@ -30,7 +31,16 @@ const ItWorks = () => {
                                 The rest is history!
                             </p>
                         </Box>
-                        <Box></Box>
+                        <Box mx='auto' align='center'>
+                            <Image w='100%' boxSize='160px' src={ticket} alt='brand'></Image>
+                            <Heading as='h5' size='md'>
+                                <Link>
+                                    <Box color='blue.100' pb='4'>
+                                        Join a Group
+                                    </Box>
+                                </Link>
+                            </Heading>
+                        </Box>
                         <Box></Box>
                     </Grid>
                 </Container>
