@@ -25,6 +25,10 @@ const ItWorks = () => {
                                     </Box>
                                 </Link>
                             </Heading>
+                            <p>
+                                Do what you love, meet others who love it, find your community.
+                                The rest is history!
+                            </p>
                         </Box>
                         <Box></Box>
                         <Box></Box>
