@@ -18,9 +18,9 @@ const ItWorks = () => {
                     <Grid templateColumns='repeat(3, 1fr)' gap='6'>
                         <Box mx='auto' align='center'>
                             <Image w='100%' boxSize='160px' src={joinGroup} alt='brand'></Image>
-                            <Heading>
+                            <Heading as='h5' size='md'>
                                 <Link>
-                                    <Box>
+                                    <Box color='blue.100' pb='4'>
                                         Join a Group
                                     </Box>
                                 </Link>
