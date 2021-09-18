@@ -9,8 +9,11 @@ const Upcomming = () => {
     return (
         <div>
             <Box mt='20'>
-                <Container>
-                    
+                <Container maxWidth='container.xl'>
+                    <Box display='flex' alignItems='center' justifyContent='space-between' mb='7'>
+                        <Box></Box>
+                        <Box></Box>
+                    </Box>
                 </Container>
             </Box>
         </div>
