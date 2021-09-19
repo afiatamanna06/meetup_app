@@ -175,7 +175,7 @@ const Upcomming = () => {
                         {/* 4th column */}
                         <Box width='100%' align='left'>
                             <Box position='relative'>
-                            <Image position='relative' w='100%' src={Upcommingfour} alt='brand'></Image>
+                                <Image position='relative' w='100%' src={Upcommingfour} alt='brand'></Image>
                                 <Box position='absolute' d='flex' alignItems='center' borderRadius='5px' top='0' background='white' fontSize='sm' m='2' px='3' py='1'>
                                     <svg
                                         data-swarm-icon="true"
@@ -193,6 +193,12 @@ const Upcomming = () => {
                                     </Box>
                                 </Box>
                             </Box>
+                            <Box mt="3" color="#877457" fontWeight="semibold">
+                                Sat, Aug 14 @ 9:45 PM NPT
+                            </Box>
+                            <Heading as='h6' mt='1' size='sm' fontWeight='black' alignItems='center'>
+                                Upcoming online events
+                            </Heading>
                         </Box>
                     </Grid>
                 </Container>
