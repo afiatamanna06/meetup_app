@@ -44,6 +44,9 @@ const Upcomming = () => {
                                     </Box>
                                 </Box>
                             </Box>
+                            <Box fontWeight='semibold' mt='3' color='#877457'>
+                                Sat, Aug 14 @ 9:45 PM NPT
+                            </Box>
                         </Box>
                     </Grid>
                 </Container>
