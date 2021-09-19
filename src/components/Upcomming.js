@@ -53,9 +53,9 @@ const Upcomming = () => {
                             <Box my='3' size='xs'>
                                 Remote-Working Group
                             </Box>
-                            <Box>
-                                <Box>
-                                    
+                            <Box d='flex' alignItems='center' justifyContent='space-between'>
+                                <Box d='flex' alignItems='center'>
+                                    <Image borderRadius='full' border='1px' borderColor='gray.200' boxSize='35px' mr='-8px' src="https://bit.ly/sage-adebayo" alt="Segun Adebayo"></Image>
                                 </Box>
                             </Box>
                         </Box>
