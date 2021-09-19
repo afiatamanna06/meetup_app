@@ -154,7 +154,12 @@ const Upcomming = () => {
                                 Remote-Working Group
                             </Box>
                             <Box d='flex' alignItems='center' justifyContent='space-between'>
-                                
+                                <Box d='flex' alignItems='center'>
+                                    <Image borderRadius='50%' border='1px' borderColor='gray.200' boxSize='40px' mr='-8px' src={sageAdebayo} alt="Segun Adebayo"></Image>
+                                    <Image borderRadius='50%' border='1px' borderColor='gray.200' boxSize='40px' mr='-8px' src={sageAdebayo} alt="Segun Adebayo"></Image>
+                                    <Image borderRadius='50%' border='1px' borderColor='gray.200' boxSize='40px' mr='-8px' src={sageAdebayo} alt="Segun Adebayo"></Image>
+                                    <Box ml='16px' color='#757575'>134</Box>
+                                </Box>
                             </Box>
                         </Box>
                     </Grid>
