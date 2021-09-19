@@ -93,6 +93,15 @@ const Upcomming = () => {
                                     </Box>
                                 </Box>
                             </Box>
+                            <Box mt="3" color="#877457" fontWeight="semibold">
+                                Sat, Aug 14 @ 9:45 PM NPT
+                            </Box>
+                            <Heading as='h6' mt='1' size='sm' fontWeight='black' alignItems='center'>
+                                Upcoming online events
+                            </Heading>
+                            <Box my='3' size='xs'>
+                                Remote-Working Group
+                            </Box>
                         </Box>
                     </Grid>
                 </Container>
