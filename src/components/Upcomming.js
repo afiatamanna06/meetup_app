@@ -50,7 +50,9 @@ const Upcomming = () => {
                             <Heading as='h6' mt='1' size='sm' fontWeight='black' alignItems='center'>
                                 Upcoming online events
                             </Heading>
-                            <Box></Box>
+                            <Box my='3' size='xs'>
+                                Remote-Working Group
+                            </Box>
                         </Box>
                     </Grid>
                 </Container>
