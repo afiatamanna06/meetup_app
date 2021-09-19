@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Container, Grid, Heading, Link } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 import Upcommingone from '../assets/upcomming-one.png'
+import sageAdebayo from '../assets/segun_adebayo.jpg'
 import Upcommingtwo from '../assets/upcomming-two.jpg'
 import Upcommingthree from '../assets/upcomming-three.jpg'
 import Upcommingfour from '../assets/upcomming-four.jpg'
@@ -55,7 +56,7 @@ const Upcomming = () => {
                             </Box>
                             <Box d='flex' alignItems='center' justifyContent='space-between'>
                                 <Box d='flex' alignItems='center'>
-                                    <Image borderRadius='full' border='1px' borderColor='gray.200' boxSize='35px' mr='-8px' src="https://bit.ly/sage-adebayo" alt="Segun Adebayo"></Image>
+                                    <Image borderRadius='50%' border='1px' borderColor='gray.200' boxSize='40px' mr='-8px' src={sageAdebayo} alt="Segun Adebayo"></Image>
                                 </Box>
                             </Box>
                         </Box>
