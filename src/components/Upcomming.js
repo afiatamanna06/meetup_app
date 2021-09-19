@@ -53,6 +53,11 @@ const Upcomming = () => {
                             <Box my='3' size='xs'>
                                 Remote-Working Group
                             </Box>
+                            <Box>
+                                <Box>
+                                    
+                                </Box>
+                            </Box>
                         </Box>
                     </Grid>
                 </Container>
