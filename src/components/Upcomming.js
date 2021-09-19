@@ -57,6 +57,8 @@ const Upcomming = () => {
                             <Box d='flex' alignItems='center' justifyContent='space-between'>
                                 <Box d='flex' alignItems='center'>
                                     <Image borderRadius='50%' border='1px' borderColor='gray.200' boxSize='40px' mr='-8px' src={sageAdebayo} alt="Segun Adebayo"></Image>
+                                    <Image borderRadius='50%' border='1px' borderColor='gray.200' boxSize='40px' mr='-8px' src={sageAdebayo} alt="Segun Adebayo"></Image>
+                                    <Image borderRadius='50%' border='1px' borderColor='gray.200' boxSize='40px' mr='-8px' src={sageAdebayo} alt="Segun Adebayo"></Image>
                                 </Box>
                             </Box>
                         </Box>
