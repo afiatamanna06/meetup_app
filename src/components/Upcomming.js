@@ -59,6 +59,10 @@ const Upcomming = () => {
                                     <Image borderRadius='50%' border='1px' borderColor='gray.200' boxSize='40px' mr='-8px' src={sageAdebayo} alt="Segun Adebayo"></Image>
                                     <Image borderRadius='50%' border='1px' borderColor='gray.200' boxSize='40px' mr='-8px' src={sageAdebayo} alt="Segun Adebayo"></Image>
                                     <Image borderRadius='50%' border='1px' borderColor='gray.200' boxSize='40px' mr='-8px' src={sageAdebayo} alt="Segun Adebayo"></Image>
+                                    <Box ml='16px' color='#757575'>134</Box>
+                                </Box>
+                                <Box>
+                                    
                                 </Box>
                             </Box>
                         </Box>
