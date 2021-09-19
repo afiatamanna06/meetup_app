@@ -28,7 +28,9 @@ const Upcomming = () => {
                             <Box position='relative'>
                                 <Image position='relative' w='100%' src={Upcommingone} alt='brand'></Image>
                                 <Box>
-                                    <Box></Box>
+                                    <Box ml='2' fontWeight='semibold' color='#757575'>
+                                        Online Event
+                                    </Box>
                                 </Box>
                             </Box>
                         </Box>
