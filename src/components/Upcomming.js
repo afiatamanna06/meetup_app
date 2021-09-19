@@ -73,6 +73,13 @@ const Upcomming = () => {
                                 </Box>
                             </Box>
                         </Box>
+                        <Box width='100%' align='left'>
+                            <Box position='relative'>
+                            <Image position='relative' w='100%' src={Upcommingone} alt='brand'></Image>
+                                <Box position='absolute' d='flex' alignItems='center' borderRadius='5px' top='0' background='white' fontSize='sm' m='2' px='3' py='1'>
+                                </Box>
+                            </Box>
+                        </Box>
                     </Grid>
                 </Container>
             </Box>
