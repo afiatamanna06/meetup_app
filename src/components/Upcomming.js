@@ -17,7 +17,7 @@ const Upcomming = () => {
                             </Heading>
                         </Box>
                         <Box>
-                            <Link>
+                            <Link fontWeight='semibold' color='teal.500'>
                                 Explore more events
                             </Link>
                         </Box>
