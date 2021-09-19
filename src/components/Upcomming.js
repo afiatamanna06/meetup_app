@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Container, Heading, Link } from '@chakra-ui/layout'
+import { Box, Container, Grid, Heading, Link } from '@chakra-ui/layout'
 import Upcommingone from '../assets/upcomming-one.png'
 import Upcommingtwo from '../assets/upcomming-two.jpg'
 import Upcommingthree from '../assets/upcomming-three.jpg'
@@ -22,6 +22,13 @@ const Upcomming = () => {
                             </Link>
                         </Box>
                     </Box>
+                    <Grid templateColumns='repeat(4, 1fr)' gap={6}>
+                        <Box>
+                            <Box>
+                                
+                            </Box>
+                        </Box>
+                    </Grid>
                 </Container>
             </Box>
         </div>
