@@ -24,10 +24,12 @@ const Upcomming = () => {
                         </Box>
                     </Box>
                     <Grid templateColumns='repeat(4, 1fr)' gap={6}>
-                        <Box>
-                            <Box>
-                                <Image></Image>
-                                <Box></Box>
+                        <Box width='100%' align='left'>
+                            <Box position='relative'>
+                                <Image position='relative' w='100%' src={Upcommingone} alt='brand'></Image>
+                                <Box>
+                                    <Box></Box>
+                                </Box>
                             </Box>
                         </Box>
                     </Grid>
