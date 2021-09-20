@@ -56,7 +56,10 @@ const Popular = () => {
                         {/* 3rd column */}
                         <Box border='1px' borderColor='gray.200' p='15px' width='100%' align='left'>
                             <Box d='flex' alignItems='center'>
-                                
+                                <Image position='relative' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
+                                <Heading alignItems='center' as='h6' fontWeight='black' size='md'>
+                                    Reno/Sparks Singles and/or Diners and Activities Group
+                                </Heading>
                             </Box>
                         </Box>
                     </Grid>
