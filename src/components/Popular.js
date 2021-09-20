@@ -29,8 +29,8 @@ const Popular = () => {
                                 </Heading>
                             </Box>
                             <Divider my='3' mb='2'/>
-                            <Box>
-                                
+                            <Box fontWeight='bold' textTransform='uppercase' py='2' color='#877457'>
+                                Mon, Aug 16 @ 10:45 PM NPT
                             </Box>
                         </Box>
                     </Grid>
