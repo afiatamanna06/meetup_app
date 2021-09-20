@@ -14,6 +14,10 @@ const Stories = () => {
                             <Heading as='h3' pb='2' alignItems='center' size='lg'>
                                 Stories from Meetups
                             </Heading>
+                            <Box maxW='700px'>
+                                People on Meetup have fostered community, learned new skills,
+                                started businesses, and made life-long friends. Learn how.
+                            </Box>
                         </Box>
                     </Box>
                 </Container>
