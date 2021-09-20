@@ -42,7 +42,12 @@ const Stories = () => {
                         {/* 2nd column */}
                         <Box width='100%' align='left'>
                             <Link>
-                            
+                                <Image _hover={{ opacity: '0.8' }} mr='15px' src={Storytwo} pos='relative' width='100%' alt='brand'></Image>
+                                <Box d='flex' flexDirection='column'>
+                                    <Heading>
+                                        
+                                    </Heading>
+                                </Box>
                             </Link>
                         </Box>
                     </Grid>
