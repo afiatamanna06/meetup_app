@@ -1,4 +1,4 @@
-import { Box, Container, Heading } from '@chakra-ui/layout'
+import { Box, Container, Heading, Link } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 import React from 'react'
 import popularImage from '../assets/popular-image.jpg'
@@ -13,6 +13,10 @@ const Popular = () => {
                             <Heading as='h3' size='lg' alignItems='center' fontWeight='black'>
                                 Popular groups
                             </Heading>
+                        </Box>
+                        <Box>
+                            <Link>
+                            </Link>
                         </Box>
                     </Box>
                 </Container>
