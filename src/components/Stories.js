@@ -49,7 +49,12 @@ const Stories = () => {
                                     </Heading>
                                 </Box>
                             </Link>
-                            <Box></Box>
+                            <Box>
+                                Since Meetup began nearly 20 years ago, we’ve fostered connections
+                                between more than 50 million people in 190 countries worldwide.
+                                Here are five simple strategies to help you feel more connected
+                                and improve your wellbeing.
+                            </Box>
                         </Box>
                     </Grid>
                 </Container>
