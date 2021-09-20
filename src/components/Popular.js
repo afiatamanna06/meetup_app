@@ -15,10 +15,12 @@ const Popular = () => {
                             </Heading>
                         </Box>
                         <Box>
-                            <Link>
+                            <Link fontWeight='semibold' color='teal.500'>
+                                Explore more groups
                             </Link>
                         </Box>
                     </Box>
+                    
                 </Container>
             </Box>
         </div>
