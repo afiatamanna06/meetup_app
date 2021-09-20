@@ -44,11 +44,12 @@ const Stories = () => {
                             <Link>
                                 <Image _hover={{ opacity: '0.8' }} mr='15px' src={Storytwo} pos='relative' width='100%' alt='brand'></Image>
                                 <Box d='flex' flexDirection='column'>
-                                    <Heading>
-                                        
+                                    <Heading alignItems='center' as='h6' fontWeight='black' size='md' pt='4' pb='4'>
+                                        Five Ways to Feel More Connected
                                     </Heading>
                                 </Box>
                             </Link>
+                            <Box></Box>
                         </Box>
                     </Grid>
                 </Container>
