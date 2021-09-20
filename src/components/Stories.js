@@ -2,7 +2,8 @@ import React from 'react'
 import Storyone from '../assets/story-one.jpg'
 import Storytwo from '../assets/story-two.jpg'
 import Storythree from '../assets/story-three.jpg'
-import { Box, Container, Grid, Heading } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/image'
+import { Box, Container, Grid, Heading, Link } from '@chakra-ui/react'
 
 const Stories = () => {
     return (
@@ -22,7 +23,12 @@ const Stories = () => {
                     </Box>
                     <Grid mt='10' mb='40' templateColumns='repeat(3, 1fr)' gap={6}>
                         <Box width='100%' align='left'>
-                            
+                            <Link>
+                                <Image _hover={{ opacity: '0.8' }} mr='15px' src={Storyone} pos='relative' width='100%' alt='brand'></Image>
+                                <Box>
+                                    <Heading></Heading>
+                                </Box>
+                            </Link>
                         </Box>
                     </Grid>
                 </Container>
