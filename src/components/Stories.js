@@ -66,6 +66,11 @@ const Stories = () => {
                                     </Heading>
                                 </Box>
                             </Link>
+                            <Box>
+                                Social interaction is a key part of any healthy lifestyle.
+                                Discover all different kinds of events that’ll help you maintain a
+                                fun and fulfilling social life.
+                            </Box>
                         </Box>
                     </Grid>
                 </Container>
