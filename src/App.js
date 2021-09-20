@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './components/Banner';
+import Connected from './components/Connected';
 import ItWorks from './components/ItWorks';
 import Main from './components/Main';
 import Popular from './components/Popular';
@@ -13,6 +14,7 @@ function App() {
       <ItWorks />
       <Upcomming />
       <Popular />
+      <Connected />
     </div>
   );
 }
