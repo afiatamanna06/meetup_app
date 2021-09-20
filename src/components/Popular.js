@@ -21,7 +21,11 @@ const Popular = () => {
                         </Box>
                     </Box>
                     <Grid templateColumns='repeat(3, 1fr)' gap={6}>
-
+                        <Box border='1px' borderColor='gray.200' p='15px' width='100%' align='left'>
+                            <Box>
+                                
+                            </Box>
+                        </Box>
                     </Grid>
                 </Container>
             </Box>
