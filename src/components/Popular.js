@@ -22,8 +22,9 @@ const Popular = () => {
                     </Box>
                     <Grid templateColumns='repeat(3, 1fr)' gap={6}>
                         <Box border='1px' borderColor='gray.200' p='15px' width='100%' align='left'>
-                            <Box>
-                                
+                            <Box d='flex' alignItems='center'>
+                                <Image position='relative' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
+                                <Heading></Heading>
                             </Box>
                         </Box>
                     </Grid>
