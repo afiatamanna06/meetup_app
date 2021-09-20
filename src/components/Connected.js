@@ -27,7 +27,7 @@ const Connected = () => {
                             </Box>
                         </Box>
                         <Box display='block'>
-                            
+                            <Image w='260px' src={deviceRight}></Image>
                         </Box>
                     </Box>
                 </Container>
