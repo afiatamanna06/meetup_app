@@ -32,7 +32,13 @@ const Stories = () => {
                                     </Heading>
                                 </Box>
                             </Link>
+                            <Box>
+                                Work friendships don’t need to fade just because you’re working
+                                remotely. Here are three fun ways you can get to know your
+                                colleagues.
+                            </Box>
                         </Box>
+                        
                     </Grid>
                 </Container>
             </Box>
