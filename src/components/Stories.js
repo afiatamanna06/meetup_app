@@ -59,7 +59,12 @@ const Stories = () => {
                         {/* 3rd column */}
                         <Box width='100%' align='left'>
                             <Link>
-                            
+                                <Image _hover={{ opacity: '0.8' }} mr='15px' src={Storythree} pos='relative' width='100%' alt='brand'></Image>
+                                <Box d='flex' flexDirection='column'>
+                                    <Heading alignItems='center' as='h6' fontWeight='black' size='md' pt='4' pb='4'>
+                                        How To Live Your Best Social Life
+                                    </Heading>
+                                </Box>
                             </Link>
                         </Box>
                     </Grid>
