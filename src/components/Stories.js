@@ -56,6 +56,12 @@ const Stories = () => {
                                 and improve your wellbeing.
                             </Box>
                         </Box>
+                        {/* 3rd column */}
+                        <Box width='100%' align='left'>
+                            <Link>
+                            
+                            </Link>
+                        </Box>
                     </Grid>
                 </Container>
             </Box>
