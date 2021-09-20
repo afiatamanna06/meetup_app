@@ -20,8 +20,8 @@ const Stories = () => {
                             </Box>
                         </Box>
                     </Box>
-                    <Grid>
-                        <Box>
+                    <Grid mt='10' mb='40' templateColumns='repeat(3, 1fr)' gap={6}>
+                        <Box width='100%' align='left'>
                             
                         </Box>
                     </Grid>
