@@ -9,7 +9,11 @@ const Stories = () => {
         <div>
             <Box mt='10'>
                 <Container maxW='container.xl'>
+                    <Box d='flex' alignItems='center' justifyContent='space-between' mb='7'>
+                        <Box align='center' width='100%'>
 
+                        </Box>
+                    </Box>
                 </Container>
             </Box>
         </div>
