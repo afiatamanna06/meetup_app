@@ -24,7 +24,9 @@ const Popular = () => {
                         <Box border='1px' borderColor='gray.200' p='15px' width='100%' align='left'>
                             <Box d='flex' alignItems='center'>
                                 <Image position='relative' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
-                                <Heading></Heading>
+                                <Heading alignItems='center' as='h6' fontWeight='black' size='md'>
+                                    Aurora Southlands Parker Woman's Social Group
+                                </Heading>
                             </Box>
                         </Box>
                     </Grid>
