@@ -49,6 +49,9 @@ const Popular = () => {
                             <Box fontWeight='bold' textTransform='uppercase' py='2' color='#877457'>
                                 Sat, Aug 14 @ 7:15 AM NPT
                             </Box>
+                            <Box fontWeight='bold' color='#212121'>
+                                Belfast Cowboys @ Irish Fair (St. Paul Harriet Island) - Friday
+                            </Box>
                         </Box>
                     </Grid>
                 </Container>
