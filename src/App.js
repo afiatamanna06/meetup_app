@@ -4,6 +4,7 @@ import Connected from './components/Connected';
 import ItWorks from './components/ItWorks';
 import Main from './components/Main';
 import Popular from './components/Popular';
+import Stories from './components/Stories';
 import Upcomming from './components/Upcomming';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Upcomming />
       <Popular />
       <Connected />
+      <Stories />
     </div>
   );
 }
