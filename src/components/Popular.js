@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Link } from '@chakra-ui/layout'
+import { Box, Container, Grid, Heading, Link } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 import React from 'react'
 import popularImage from '../assets/popular-image.jpg'
@@ -20,7 +20,9 @@ const Popular = () => {
                             </Link>
                         </Box>
                     </Box>
-                    
+                    <Grid templateColumns='repeat(3, 1fr)' gap={6}>
+
+                    </Grid>
                 </Container>
             </Box>
         </div>
