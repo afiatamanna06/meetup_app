@@ -22,8 +22,12 @@ const Connected = () => {
                                 Stay connected. <br /> Download the app.
                             </Heading>
                             <Box d='flex'>
-                                <Image></Image>
+                                <Image w='180px' p='5' src={androidAppstore}></Image>
+                                <Image w='180px' p='5' src={iosAppstore}></Image>
                             </Box>
+                        </Box>
+                        <Box display='block'>
+                            
                         </Box>
                     </Box>
                 </Container>
