@@ -22,6 +22,7 @@ const Stories = () => {
                         </Box>
                     </Box>
                     <Grid mt='10' mb='40' templateColumns='repeat(3, 1fr)' gap={6}>
+                        {/* 1st column */}
                         <Box width='100%' align='left'>
                             <Link>
                                 <Image _hover={{ opacity: '0.8' }} mr='15px' src={Storyone} pos='relative' width='100%' alt='brand'></Image>
@@ -38,7 +39,12 @@ const Stories = () => {
                                 colleagues.
                             </Box>
                         </Box>
-                        
+                        {/* 2nd column */}
+                        <Box width='100%' align='left'>
+                            <Link>
+                            
+                            </Link>
+                        </Box>
                     </Grid>
                 </Container>
             </Box>
