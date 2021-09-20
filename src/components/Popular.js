@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Heading, Link } from '@chakra-ui/layout'
+import { Box, Container, Divider, Grid, Heading, Link } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 import React from 'react'
 import popularImage from '../assets/popular-image.jpg'
@@ -27,6 +27,10 @@ const Popular = () => {
                                 <Heading alignItems='center' as='h6' fontWeight='black' size='md'>
                                     Aurora Southlands Parker Woman's Social Group
                                 </Heading>
+                            </Box>
+                            <Divider my='3' mb='2'/>
+                            <Box>
+                                
                             </Box>
                         </Box>
                     </Grid>
