@@ -18,7 +18,12 @@ const Connected = () => {
                         </Box>
                         <Box pos='relative' align='center' mx='auto'>
                             <Image w='80px' left='0' src={meetupLogo}></Image>
-                            <Heading as='h6' size='md' my='7'></Heading>
+                            <Heading as='h6' size='md' my='7'>
+                                Stay connected. <br /> Download the app.
+                            </Heading>
+                            <Box d='flex'>
+                                <Image></Image>
+                            </Box>
                         </Box>
                     </Box>
                 </Container>
