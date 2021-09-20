@@ -6,11 +6,11 @@ import popularImage from '../assets/popular-image.jpg'
 const Popular = () => {
     return (
         <div>
-            <Box>
+            <Box mt='20'>
                 <Container maxW='container.xl'>
-                    <Box d='flex' alignItems='center' justifyContent='space-between'>
+                    <Box mb='7' d='flex' alignItems='center' justifyContent='space-between'>
                         <Box>
-                            <Heading>
+                            <Heading as='h3' size='lg' alignItems='center' fontWeight='black'>
                                 Popular groups
                             </Heading>
                         </Box>
