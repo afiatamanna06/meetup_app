@@ -37,6 +37,12 @@ const Popular = () => {
                                 SEPT. 11th 2021
                             </Box>
                         </Box>
+                        {/* 2nd column */}
+                        <Box border='1px' borderColor='gray.200' p='15px' width='100%' align='left'>
+                            <Box d='flex' alignItems='center'>
+
+                            </Box>
+                        </Box>
                     </Grid>
                 </Container>
             </Box>
