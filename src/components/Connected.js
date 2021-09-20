@@ -9,9 +9,11 @@ import iosAppstore from '../assets/ios-app-download.svg'
 const Connected = () => {
     return (
         <div>
-            <Box>
-                <Container>
-                    
+            <Box my='20'>
+                <Container maxWidth='container.xl'>
+                    <Box pos='relative' justifyContent='space-between' d='flex' alignItems='center'>
+                        <Box></Box>
+                    </Box>
                 </Container>
             </Box>
         </div>
