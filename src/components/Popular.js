@@ -65,6 +65,9 @@ const Popular = () => {
                             <Box fontWeight='bold' textTransform='uppercase' py='2' color='#877457'>
                                 Sat, Aug 14 @ 5:15 AM NPT
                             </Box>
+                            <Box fontWeight='bold' color='#212121'>
+                                Afterwork fun at Terrace Lounge
+                            </Box>
                         </Box>
                     </Grid>
                 </Container>
