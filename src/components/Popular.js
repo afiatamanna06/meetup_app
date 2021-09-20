@@ -32,6 +32,10 @@ const Popular = () => {
                             <Box fontWeight='bold' textTransform='uppercase' py='2' color='#877457'>
                                 Mon, Aug 16 @ 10:45 PM NPT
                             </Box>
+                            <Box fontWeight='bold' color='#212121'>
+                                VOLUNTEER COMMITTEE NEEDED FROM OUR GROUP FOR 911 EVENT TBA on
+                                SEPT. 11th 2021
+                            </Box>
                         </Box>
                     </Grid>
                 </Container>
