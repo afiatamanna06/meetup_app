@@ -25,8 +25,11 @@ const Stories = () => {
                         <Box width='100%' align='left'>
                             <Link>
                                 <Image _hover={{ opacity: '0.8' }} mr='15px' src={Storyone} pos='relative' width='100%' alt='brand'></Image>
-                                <Box>
-                                    <Heading></Heading>
+                                <Box d='flex' flexDirection='column'>
+                                    <Heading alignItems='center' as='h6' fontWeight='black' size='md' pt='4' pb='4'>
+                                        Three Ways To Make Coworker Friendships While Working From
+                                        Home
+                                    </Heading>
                                 </Box>
                             </Link>
                         </Box>
