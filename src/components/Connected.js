@@ -4,8 +4,8 @@ import { Image } from '@chakra-ui/image'
 import deviceLeft from '../assets/device-left.webp'
 import deviceRight from '../assets/device-right.webp'
 import meetupLogo from '../assets/meetup-logo.svg'
-import androidAppstore from '../assets/android-app-download.svg'
-import iosAppstore from '../assets/ios-app-download.svg'
+import androidAppstore from '../assets/android-app-download.png'
+import iosAppstore from '../assets/ios-app-download.png'
 
 const Connected = () => {
     return (
