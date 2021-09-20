@@ -2,7 +2,7 @@ import React from 'react'
 import Storyone from '../assets/story-one.jpg'
 import Storytwo from '../assets/story-two.jpg'
 import Storythree from '../assets/story-three.jpg'
-import { Box, Container, Heading } from '@chakra-ui/react'
+import { Box, Container, Grid, Heading } from '@chakra-ui/react'
 
 const Stories = () => {
     return (
@@ -20,6 +20,11 @@ const Stories = () => {
                             </Box>
                         </Box>
                     </Box>
+                    <Grid>
+                        <Box>
+                            
+                        </Box>
+                    </Grid>
                 </Container>
             </Box>
         </div>
