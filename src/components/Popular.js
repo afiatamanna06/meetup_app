@@ -45,6 +45,10 @@ const Popular = () => {
                                     Vintage 1960 Minneapolis
                                 </Heading>
                             </Box>
+                            <Divider my='3' mb='2'/>
+                            <Box fontWeight='bold' textTransform='uppercase' py='2' color='#877457'>
+                                Sat, Aug 14 @ 7:15 AM NPT
+                            </Box>
                         </Box>
                     </Grid>
                 </Container>
