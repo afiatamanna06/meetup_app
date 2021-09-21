@@ -1,5 +1,5 @@
 import { Button } from '@chakra-ui/button'
-import { Box, Container, Divider, Heading } from '@chakra-ui/layout'
+import { Box, Container, Divider, Heading, List, ListItem } from '@chakra-ui/layout'
 import React from 'react'
 import androidAppstore from '../assets/android-app-download.png'
 import iosAppstore from '../assets/ios-app-download.png'
@@ -20,7 +20,12 @@ const Footerbottom = () => {
                     <Divider my='10'/>
                     <Box d='flex' alignItems='top' flexDir='row'>
                         <Box flex='1' mb='0'>
-                            
+                            <Heading size='sm'>Your Account</Heading>
+                            <List mt='4' spacing={2}>
+                                <ListItem>
+                                    
+                                </ListItem>
+                            </List>
                         </Box>
                     </Box>
                 </Container>
