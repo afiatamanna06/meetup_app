@@ -13,7 +13,9 @@ const Footerbottom = () => {
                         <Heading size='md'>
                             Create your own Meetup group.
                         </Heading>
-                        <Button></Button>
+                        <Button colorScheme='white' variant='outline' ml='4'>
+                            Get Started
+                        </Button>
                     </Box>
                 </Container>
             </Box>
