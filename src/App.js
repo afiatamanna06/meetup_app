@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './components/Banner';
 import Connected from './components/Connected';
+import Footerbottom from './components/Footerbottom';
 import ItWorks from './components/ItWorks';
 import Main from './components/Main';
 import Popular from './components/Popular';
@@ -17,6 +18,7 @@ function App() {
       <Popular />
       <Connected />
       <Stories />
+      <Footerbottom />
     </div>
   );
 }
