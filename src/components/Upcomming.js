@@ -26,7 +26,8 @@ const Upcomming = () => {
                     </Box>
 
                     <Grid templateColumns='repeat(4, 1fr)' gap={6}>
-                        <Box width='100%' align='left'>
+                        {/* 1st column*/}
+                        <Box  _hover={{ bg: '#f2f2f2' }} p='3' width='100%' align='left' cursor='pointer'>
                             <Box position='relative'>
                                 <Image position='relative' w='100%' src={Upcommingone} alt='brand'></Image>
                                 <Box position='absolute' d='flex' alignItems='center' borderRadius='5px' top='0' background='white' fontSize='sm' m='2' px='3' py='1'>
@@ -75,7 +76,7 @@ const Upcomming = () => {
                             </Box>
                         </Box>
                         {/* 2nd column */}
-                        <Box width='100%' align='left'>
+                        <Box _hover={{ bg: '#f2f2f2' }} p='3' width='100%' align='left' cursor='pointer'>
                             <Box position='relative'>
                             <Image position='relative' w='100%' src={Upcommingtwo} alt='brand'></Image>
                                 <Box position='absolute' d='flex' alignItems='center' borderRadius='5px' top='0' background='white' fontSize='sm' m='2' px='3' py='1'>
@@ -124,7 +125,7 @@ const Upcomming = () => {
                             </Box>
                         </Box>
                         {/* 3rd column */}
-                        <Box width='100%' align='left'>
+                        <Box _hover={{ bg: '#f2f2f2' }} p='3' width='100%' align='left' cursor='pointer'>
                             <Box position='relative'>
                                 <Image position='relative' w='100%' src={Upcommingthree} alt='brand'></Image>
                                 <Box position='absolute' d='flex' alignItems='center' borderRadius='5px' top='0' background='white' fontSize='sm' m='2' px='3' py='1'>
@@ -173,7 +174,7 @@ const Upcomming = () => {
                             </Box>
                         </Box>
                         {/* 4th column */}
-                        <Box width='100%' align='left'>
+                        <Box _hover={{ bg: '#f2f2f2' }} p='3' width='100%' align='left' cursor='pointer'>
                             <Box position='relative'>
                                 <Image position='relative' w='100%' src={Upcommingfour} alt='brand'></Image>
                                 <Box position='absolute' d='flex' alignItems='center' borderRadius='5px' top='0' background='white' fontSize='sm' m='2' px='3' py='1'>
