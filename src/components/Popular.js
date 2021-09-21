@@ -21,7 +21,7 @@ const Popular = () => {
                         </Box>
                     </Box>
                     <Grid templateColumns='repeat(3, 1fr)' gap={6}>
-                        <Box border='1px' borderColor='gray.200' p='15px' width='100%' align='left'>
+                        <Box _hover={{ bg: '#e6e6ff'}} border='1px' borderColor='gray.300' p='15px' width='100%' align='left'>
                             <Box d='flex' alignItems='center'>
                                 <Image position='relative' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
                                 <Heading alignItems='center' as='h6' fontWeight='black' size='md'>
@@ -38,7 +38,7 @@ const Popular = () => {
                             </Box>
                         </Box>
                         {/* 2nd column */}
-                        <Box border='1px' borderColor='gray.200' p='15px' width='100%' align='left'>
+                        <Box _hover={{ bg: '#e6e6ff'}} border='1px' borderColor='gray.300' p='15px' width='100%' align='left'>
                             <Box d='flex' alignItems='center'>
                                 <Image position='relative' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
                                 <Heading alignItems='center' as='h6' fontWeight='black' size='md'>
@@ -54,7 +54,7 @@ const Popular = () => {
                             </Box>
                         </Box>
                         {/* 3rd column */}
-                        <Box border='1px' borderColor='gray.200' p='15px' width='100%' align='left'>
+                        <Box _hover={{ bg: '#e6e6ff'}} border='1px' borderColor='gray.300' p='15px' width='100%' align='left'>
                             <Box d='flex' alignItems='center'>
                                 <Image position='relative' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
                                 <Heading alignItems='center' as='h6' fontWeight='black' size='md'>

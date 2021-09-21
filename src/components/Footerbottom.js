@@ -14,7 +14,7 @@ const Footerbottom = () => {
                         <Heading size='md'>
                             Create your own Meetup group.
                         </Heading>
-                        <Button colorScheme='white' variant='outline' ml='4'>
+                        <Button _hover={{ opacity: '0.95', color: '#8533ff'}} cursor='pointer' colorScheme='white' variant='outline' ml='4'>
                             Get Started
                         </Button>
                     </Box>
@@ -114,8 +114,8 @@ const Footerbottom = () => {
                             </Box>
                         </Box>
                         <Box d='flex' mt='0'>
-                            <Image w='128px' h='38px' mr='6' src={androidAppstore} borderRadius='7px'></Image>
-                            <Image w='128px' h='38px' src={iosAppstore}></Image>
+                            <Image _hover={{ opacity: '0.95', filter: 'brightness(85%)' }} cursor='pointer' w='128px' h='38px' mr='6' src={androidAppstore} borderRadius='7px'></Image>
+                            <Image _hover={{ opacity: '0.95', filter: 'brightness(85%)' }} cursor='pointer' w='128px' h='38px' src={iosAppstore}></Image>
                         </Box>
                     </Box>
 
