@@ -60,7 +60,10 @@ const Footerbottom = () => {
                     </Box>
                     <Box justifyContent='space-between' d='flex' flexDirection='row' alignItems='center' mt='15'>
                         <Box d='flex' flexDirection='column'>
-                            
+                            <Box mb='2'>Follow us</Box>
+                            <Box>
+                                
+                            </Box>
                         </Box>
                     </Box>
                 </Container>
