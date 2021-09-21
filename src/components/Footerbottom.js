@@ -1,5 +1,5 @@
 import { Button } from '@chakra-ui/button'
-import { Box, Container, Heading } from '@chakra-ui/layout'
+import { Box, Container, Divider, Heading } from '@chakra-ui/layout'
 import React from 'react'
 import androidAppstore from '../assets/android-app-download.png'
 import iosAppstore from '../assets/ios-app-download.png'
@@ -16,6 +16,10 @@ const Footerbottom = () => {
                         <Button colorScheme='white' variant='outline' ml='4'>
                             Get Started
                         </Button>
+                    </Box>
+                    <Divider my='10'/>
+                    <Box>
+                        
                     </Box>
                 </Container>
             </Box>
