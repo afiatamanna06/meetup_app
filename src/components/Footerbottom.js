@@ -52,9 +52,13 @@ const Footerbottom = () => {
                                 <ListItem>
                                     <Link color='#A2A2A2'>Log in</Link>
                                 </ListItem>
+                                <ListItem>
+                                    <Link color='#A2A2A2'>Help</Link>
+                                </ListItem>
                             </List>
                         </Box>
                     </Box>
+                    
                 </Container>
             </Box>
         </div>
