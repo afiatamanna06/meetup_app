@@ -114,7 +114,7 @@ const Footerbottom = () => {
                             </Box>
                         </Box>
                         <Box d='flex' mt='0'>
-                            <Image w='128px' h='38px' mr='6' src={androidAppstore}></Image>
+                            <Image w='128px' h='38px' mr='6' src={androidAppstore} borderRadius='7px'></Image>
                             <Image w='128px' h='38px' src={iosAppstore}></Image>
                         </Box>
                     </Box>
