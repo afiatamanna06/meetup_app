@@ -58,7 +58,11 @@ const Footerbottom = () => {
                             </List>
                         </Box>
                     </Box>
-                    
+                    <Box justifyContent='space-between' d='flex' flexDirection='row' alignItems='center' mt='15'>
+                        <Box d='flex' flexDirection='column'>
+                            
+                        </Box>
+                    </Box>
                 </Container>
             </Box>
         </div>
