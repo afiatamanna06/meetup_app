@@ -119,8 +119,8 @@ const Footerbottom = () => {
                         </Box>
                     </Box>
 
-                    <Box>
-                        
+                    <Box d='flex' mt='20' flexWrap='nowrap'>
+                        <Link fontSize='sm' mr='5'></Link>
                     </Box>
                 </Container>
             </Box>
