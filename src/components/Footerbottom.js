@@ -129,6 +129,9 @@ const Footerbottom = () => {
                         <Link fontSize='sm' mr='5'>
                             Privacy Policy
                         </Link>
+                        <Link fontSize='sm' mr='5'>
+                            Cookie Policy
+                        </Link>
                     </Box>
                 </Container>
             </Box>
