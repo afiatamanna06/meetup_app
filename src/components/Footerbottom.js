@@ -1,5 +1,6 @@
 import { Button } from '@chakra-ui/button'
 import { Box, Container, Divider, Heading, Link, List, ListItem } from '@chakra-ui/layout'
+import { Image } from '@chakra-ui/image'
 import React from 'react'
 import androidAppstore from '../assets/android-app-download.png'
 import iosAppstore from '../assets/ios-app-download.png'
@@ -111,6 +112,9 @@ const Footerbottom = () => {
                                     </svg>
                                 </Link>
                             </Box>
+                        </Box>
+                        <Box d='flex' mt='0'>
+                            <Image w='128px' h='38px' mr='6' src={androidAppstore}></Image>
                         </Box>
                     </Box>
                 </Container>
