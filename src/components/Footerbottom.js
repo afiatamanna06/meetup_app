@@ -1,5 +1,5 @@
 import { Button } from '@chakra-ui/button'
-import { Box, Container, Divider, Heading, List, ListItem } from '@chakra-ui/layout'
+import { Box, Container, Divider, Heading, Link, List, ListItem } from '@chakra-ui/layout'
 import React from 'react'
 import androidAppstore from '../assets/android-app-download.png'
 import iosAppstore from '../assets/ios-app-download.png'
@@ -23,7 +23,7 @@ const Footerbottom = () => {
                             <Heading size='sm'>Your Account</Heading>
                             <List mt='4' spacing={2}>
                                 <ListItem>
-                                    
+                                    <Link color='#A2A2A2'>Groups</Link>
                                 </ListItem>
                             </List>
                         </Box>
