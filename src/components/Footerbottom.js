@@ -1,4 +1,5 @@
-import { Box, Container } from '@chakra-ui/layout'
+import { Button } from '@chakra-ui/button'
+import { Box, Container, Heading } from '@chakra-ui/layout'
 import React from 'react'
 import androidAppstore from '../assets/android-app-download.png'
 import iosAppstore from '../assets/ios-app-download.png'
@@ -8,7 +9,12 @@ const Footerbottom = () => {
         <div>
             <Box color='white' background='#212121' py='10' mt='5'>
                 <Container maxW='container.xl'>
-
+                    <Box d='flex' alignItems='center'>
+                        <Heading size='md'>
+                            Create your own Meetup group.
+                        </Heading>
+                        <Button></Button>
+                    </Box>
                 </Container>
             </Box>
         </div>
