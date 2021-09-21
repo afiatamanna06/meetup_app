@@ -9,6 +9,7 @@ import Stories from './components/Stories';
 import Upcomming from './components/Upcomming';
 import imageBg from './assets/bg.svg'
 import { Box } from '@chakra-ui/layout';
+import { Image } from '@chakra-ui/image'
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         <Connected />
         <Stories />
         <Footerbottom />
+      </Box>
+      <Box pos='relative' top='0' bottom='0' left='0' right='0' zIndex='-1' height='100vh'>
+        <Image src={imageBg} objectFit='cover' w='80%' sizes='300' m='auto'></Image>
       </Box>
     </div>
   );
