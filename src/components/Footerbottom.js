@@ -120,7 +120,12 @@ const Footerbottom = () => {
                     </Box>
 
                     <Box d='flex' mt='20' flexWrap='nowrap'>
-                        <Link fontSize='sm' mr='5'></Link>
+                        <Link fontSize='sm' mr='5'>
+                            © 2021 Meetup
+                        </Link>
+                        <Link fontSize='sm' mr='5'>
+                            Terms of Service
+                        </Link>
                     </Box>
                 </Container>
             </Box>
