@@ -18,8 +18,10 @@ const Footerbottom = () => {
                         </Button>
                     </Box>
                     <Divider my='10'/>
-                    <Box>
-                        
+                    <Box d='flex' alignItems='top' flexDir='row'>
+                        <Box flex='1' mb='0'>
+                            
+                        </Box>
                     </Box>
                 </Container>
             </Box>
