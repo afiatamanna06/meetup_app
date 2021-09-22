@@ -94,7 +94,9 @@ const Footerbottom = () => {
                                 <ListItem>
                                     <Link color='#A2A2A2'>Careers</Link>
                                 </ListItem>
-
+                                <ListItem>
+                                    <Link color='#A2A2A2'>Apps</Link>
+                                </ListItem>
                             </List>
                         </Box>
                     </Box>
