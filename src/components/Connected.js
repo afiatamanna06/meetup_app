@@ -30,7 +30,11 @@ const Connected = () => {
                                 <Image _hover={{ opacity: '0.95', filter: 'brightness(85%)' }} cursor='pointer' w='180px' p='5' src={androidAppstore} borderRadius='29px'></Image>
                             </Box>
                         </Box>
-                        <Box display='block'>
+                        <Box display={{sm: 'none',
+                                       md: 'block',
+                                       lg: 'block',
+                                       xl: 'block',
+                                       base: 'none'}}>
                             <Image w='260px' src={deviceRight}></Image>
                         </Box>
                     </Box>
