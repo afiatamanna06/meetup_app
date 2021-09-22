@@ -75,7 +75,11 @@ const Footerbottom = () => {
                                                                                 md: 'row',
                                                                                 lg: 'row',
                                                                                 xl: 'row',
-                                                                                base: 'column'}} alignItems='center' mt='15'>
+                                                                                base: 'column'}} alignItems={{sm: 'left',
+                                                                                                                md: 'center',
+                                                                                                                lg: 'center',
+                                                                                                                xl: 'center',
+                                                                                                                base: 'left'}} mt='15'>
                         <Box d='flex' flexDirection='column'>
                             <Box mb='2'>Follow us</Box>
                             <Box d='flex'>
