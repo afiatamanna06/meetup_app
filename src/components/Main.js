@@ -25,9 +25,9 @@ const Main = () => {
         <div>
             <Box>
                 <Container maxWidth="container.xl">
-                    <Box d="flex" alignItems="center" flexDirection='row' py='20'>
+                    <Box d="flex" alignItems="center" flexDirection={{ sm: 'column', md: 'row', lg: 'row', xl: 'row', base: 'column' }} py='20'>
                         <Box mr='6' ml='20'>
-                            <Heading size='3xl'>
+                            <Heading size='3xl' as='h1'>
                                 <Box fontWeight='black'>Dive in! There are so many things to do on Meetup</Box>
                             </Heading>
                             <Box mt='6' fontWeight="medium" fontSize='larger'>
