@@ -20,7 +20,12 @@ const Popular = () => {
                             </Link>
                         </Box>
                     </Box>
-                    <Grid templateColumns='repeat(3, 1fr)' gap={6}>
+                    <Grid templateColumns={{sm: 'repeat(1, 1fr)',
+                                            md: 'repeat(3, 1fr)',
+                                            lg: 'repeat(3, 1fr)',
+                                            xl: 'repeat(3, 1fr)',
+                                            base: 'repeat(1, 1fr)'}} gap={6}>
+                        {/* 1st column */}
                         <Box _hover={{ bg: '#f2f2f2'}} cursor='pointer' border='1px' borderColor='gray.300' p='15px' width='100%' align='left'>
                             <Box d='flex' alignItems='center'>
                                 <Image position='relative' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
