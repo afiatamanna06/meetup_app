@@ -42,13 +42,12 @@ const ItWorks = () => {
                             <Heading as='h5' size='md'>
                                 <Link>
                                     <Box color='blue.100' pb='4'>
-                                        Join a Group
+                                        Find an event
                                     </Box>
                                 </Link>
                             </Heading>
                             <p>
-                                Do what you love, meet others who love it, find your community.
-                                The rest is history!
+                                Events are happening on just about any topic you can think of, from online gaming and photography to yoga and hiking.
                             </p>
                         </Box>
                         <Box mx='auto' align='center'>
@@ -56,18 +55,17 @@ const ItWorks = () => {
                             <Heading as='h5' size='md'>
                                 <Link>
                                     <Box color='blue.100' pb='4'>
-                                        Join a Group
+                                        Start a group
                                     </Box>
                                 </Link>
                             </Heading>
                             <p>
-                                Do what you love, meet others who love it, find your community.
-                                The rest is history!
+                                You don’t have to be an expert to gather people together and explore shared interests.
                             </p>
                         </Box>
                     </Grid>
                     <Box align='center' mt='16'>
-                        <Button _hover={{ opacity: "0.8" }} _focus={{ outline: 0 }} color='white' bg='blue.100' fontWeight='normal' size='lg'>
+                        <Button _hover={{ opacity: "0.8" }} _focus={{ outline: 0 }} color='white' bg='blue.100' fontWeight='normal' size='md' fontSize='large'>
                             Join Meetup
                         </Button>
                     </Box>

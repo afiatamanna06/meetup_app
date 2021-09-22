@@ -48,23 +48,23 @@ const Main = () => {
                                          base: 'repeat(1, 1fr)'}} gap={5}>
                     <Box _hover={{ opacity: '0.85'}}>
                         <Image w='100%' borderRadius='lg' src={imageOne} alt='image three'></Image>
-                        <Button colorScheme='teal' variant='link' mt='5'>
+                        <Button colorScheme='teal' variant='link' mt='3' w='37%'>
                         Make new friend
-                        <Image w='5%' ml='2' src={rightArrow} alt='right arrow'></Image>
+                        <Image w='17%' ml='2' src={rightArrow} alt='right arrow'></Image>
                         </Button>
                     </Box>
                     <Box _hover={{ opacity: '0.85'}}>
                         <Image w='100%' borderRadius='lg' src={imageTwo} alt='image three'></Image>
-                        <Button colorScheme='teal' variant='link' mt='5'>
+                        <Button colorScheme='teal' variant='link' mt='3' w='37%' pl='6'>
                         Explore the outdoors
-                        <Image w='5%' ml='2' src={rightArrow} alt='right arrow'></Image>
+                        <Image w='17%' ml='2' src={rightArrow} alt='right arrow'></Image>
                         </Button>
                     </Box>
                     <Box _hover={{ opacity: '0.85'}}>
                         <Image w='100%' borderRadius='lg' src={imageThree} alt='image three'></Image>
-                        <Button colorScheme='teal' variant='link' mt='5'>
+                        <Button colorScheme='teal' variant='link' mt='3' w='37%'>
                         Connect over tech
-                        <Image w='5%' ml='2' src={rightArrow} alt='right arrow'></Image>
+                        <Image w='17%' ml='2' src={rightArrow} alt='right arrow'></Image>
                         </Button>
                     </Box>
                 </Grid>
