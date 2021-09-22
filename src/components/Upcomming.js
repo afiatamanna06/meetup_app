@@ -25,7 +25,11 @@ const Upcomming = () => {
                         </Box>
                     </Box>
 
-                    <Grid templateColumns='repeat(4, 1fr)' gap={6}>
+                    <Grid templateColumns={{sm: 'repeat(2, 1fr)',
+                                            md: 'repeat(2, 1fr)',
+                                            lg: 'repeat(4, 1fr)',
+                                            xl: 'repeat(4, 1fr)',
+                                            base: 'repeat(1, 1fr)'}} gap={6}>
                         {/* 1st column*/}
                         <Box  _hover={{ bg: '#f2f2f2' }} p='3' borderRadius='8px' width='100%' align='left' cursor='pointer'>
                             <Box position='relative'>
