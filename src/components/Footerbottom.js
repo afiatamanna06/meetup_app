@@ -29,7 +29,12 @@ const Footerbottom = () => {
                                             lg: '0',
                                             xl: '0',
                                             base: '4'}}>
-                        <Heading size='sm'>Your Account</Heading>
+                            <Heading size='sm'>Your Account</Heading>
+                            <List mt='4' spacing={2}>
+                                <ListItem>
+                                    <Link color='#A2A2A2'>Sign up</Link>
+                                </ListItem>
+                            </List>
                         </Box>
                         <Box flex='1' mb={{sm: '10',
                                             md: '0',
