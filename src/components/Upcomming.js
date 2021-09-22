@@ -31,9 +31,9 @@ const Upcomming = () => {
                                             xl: 'repeat(4, 1fr)',
                                             base: 'repeat(1, 1fr)'}} gap={6}>
                         {/* 1st column*/}
-                        <Box  _hover={{ bg: '#f2f2f2' }} p='3' borderRadius='8px' width='100%' align='left' cursor='pointer'>
+                        <Box  p='3' borderRadius='8px' width='100%' align='left' cursor='pointer'>
                             <Box position='relative'>
-                                <Image position='relative' w='100%' src={Upcommingone} alt='brand'></Image>
+                                <Image position='relative' borderRadius='8px' border='1px' borderColor='gray.400' w='100%' src={Upcommingone} alt='brand'></Image>
                                 <Box position='absolute' d='flex' alignItems='center' borderRadius='5px' top='0' background='white' fontSize='sm' m='2' px='3' py='1'>
                                     <svg
                                         data-swarm-icon="true"
@@ -57,7 +57,7 @@ const Upcomming = () => {
                             <Heading as='h6' mt='1' size='sm' fontWeight='black' alignItems='center'>
                                 Upcoming online events
                             </Heading>
-                            <Box my='3' size='xs'>
+                            <Box my='3' size='xs' color='#757575'>
                                 Remote-Working Group
                             </Box>
                             <Box d='flex' alignItems='center' justifyContent='space-between'>
@@ -80,9 +80,9 @@ const Upcomming = () => {
                             </Box>
                         </Box>
                         {/* 2nd column */}
-                        <Box _hover={{ bg: '#f2f2f2' }} p='3' borderRadius='8px' width='100%' align='left' cursor='pointer'>
+                        <Box p='3' borderRadius='8px' width='100%' align='left' cursor='pointer'>
                             <Box position='relative'>
-                            <Image position='relative' w='100%' src={Upcommingtwo} alt='brand'></Image>
+                            <Image position='relative' borderRadius='8px' border='1px' borderColor='gray.400' w='100%' src={Upcommingtwo} alt='brand'></Image>
                                 <Box position='absolute' d='flex' alignItems='center' borderRadius='5px' top='0' background='white' fontSize='sm' m='2' px='3' py='1'>
                                     <svg
                                         data-swarm-icon="true"
@@ -106,7 +106,7 @@ const Upcomming = () => {
                             <Heading as='h6' mt='1' size='sm' fontWeight='black' alignItems='center'>
                                 Upcoming online events
                             </Heading>
-                            <Box my='3' size='xs'>
+                            <Box my='3' size='xs' color='#757575'>
                                 Remote-Working Group
                             </Box>
                             <Box d='flex' alignItems='center' justifyContent='space-between'>
@@ -129,9 +129,9 @@ const Upcomming = () => {
                             </Box>
                         </Box>
                         {/* 3rd column */}
-                        <Box _hover={{ bg: '#f2f2f2' }} p='3' borderRadius='8px' width='100%' align='left' cursor='pointer'>
+                        <Box p='3' borderRadius='8px' width='100%' align='left' cursor='pointer'>
                             <Box position='relative'>
-                                <Image position='relative' w='100%' src={Upcommingthree} alt='brand'></Image>
+                                <Image position='relative' borderRadius='8px' border='1px' borderColor='gray.400' w='100%' src={Upcommingthree} alt='brand'></Image>
                                 <Box position='absolute' d='flex' alignItems='center' borderRadius='5px' top='0' background='white' fontSize='sm' m='2' px='3' py='1'>
                                     <svg
                                         data-swarm-icon="true"
@@ -155,7 +155,7 @@ const Upcomming = () => {
                             <Heading as='h6' mt='1' size='sm' fontWeight='black' alignItems='center'>
                                 Upcoming online events
                             </Heading>
-                            <Box my='3' size='xs'>
+                            <Box my='3' size='xs' color='#757575'>
                                 Remote-Working Group
                             </Box>
                             <Box d='flex' alignItems='center' justifyContent='space-between'>
@@ -178,9 +178,9 @@ const Upcomming = () => {
                             </Box>
                         </Box>
                         {/* 4th column */}
-                        <Box _hover={{ bg: '#f2f2f2' }} p='3' borderRadius='8px' width='100%' align='left' cursor='pointer'>
+                        <Box p='3' borderRadius='8px' width='100%' align='left' cursor='pointer'>
                             <Box position='relative'>
-                                <Image position='relative' w='100%' src={Upcommingfour} alt='brand'></Image>
+                                <Image position='relative' borderRadius='8px' border='1px' borderColor='gray.400' w='100%' src={Upcommingfour} alt='brand'></Image>
                                 <Box position='absolute' d='flex' alignItems='center' borderRadius='5px' top='0' background='white' fontSize='sm' m='2' px='3' py='1'>
                                     <svg
                                         data-swarm-icon="true"
@@ -204,7 +204,7 @@ const Upcomming = () => {
                             <Heading as='h6' mt='1' size='sm' fontWeight='black' alignItems='center'>
                                 Upcoming online events
                             </Heading>
-                            <Box my='3' size='xs'>
+                            <Box my='3' size='xs' color='#757575'>
                                 Remote-Working Group
                             </Box>
                             <Box d='flex' alignItems='center' justifyContent='space-between'>
