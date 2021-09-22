@@ -34,13 +34,13 @@ const Footerbottom = () => {
                             <Heading size='sm'>Your Account</Heading>
                             <List mt='4' spacing={2}>
                                 <ListItem>
-                                    <Link color='#A2A2A2'>Sign up</Link>
+                                    <Link color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>Sign up</Link>
                                 </ListItem>
                                 <ListItem>
-                                    <Link color='#A2A2A2'>Log in</Link>
+                                    <Link color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>Log in</Link>
                                 </ListItem>
                                 <ListItem>
-                                    <Link color='#A2A2A2'>Help</Link>
+                                    <Link color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>Help</Link>
                                 </ListItem>
                             </List>
                         </Box>
