@@ -19,7 +19,11 @@ const Footerbottom = () => {
                         </Button>
                     </Box>
                     <Divider my='10'/>
-                    <Box d='flex' alignItems='top' flexDir='row'>
+                    <Box d='flex' alignItems='top' flexDir={{sm: 'column',
+                                                            md: 'row',
+                                                            lg: 'row',
+                                                            xl: 'row',
+                                                            base: 'column'}}>
                         <Box flex='1' mb='0'>
                             <Heading size='sm'>Your Account</Heading>
                             <List mt='4' spacing={2}>
