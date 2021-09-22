@@ -26,9 +26,9 @@ const Popular = () => {
                                             xl: 'repeat(3, 1fr)',
                                             base: 'repeat(1, 1fr)'}} gap={6}>
                         {/* 1st column */}
-                        <Box _hover={{ bg: '#f2f2f2'}} cursor='pointer' border='1px' borderColor='gray.300' p='15px' width='100%' align='left'>
+                        <Box cursor='pointer' borderRadius='7px' border='1px' borderColor='gray.300' p='15px' width='100%' align='left'>
                             <Box d='flex' alignItems='center'>
-                                <Image position='relative' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
+                                <Image position='relative' borderRadius='7px' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
                                 <Heading alignItems='center' as='h6' fontWeight='black' size='md'>
                                     Aurora Southlands Parker Woman's Social Group
                                 </Heading>
@@ -43,9 +43,9 @@ const Popular = () => {
                             </Box>
                         </Box>
                         {/* 2nd column */}
-                        <Box _hover={{ bg: '#f2f2f2'}} cursor='pointer' border='1px' borderColor='gray.300' p='15px' width='100%' align='left'>
+                        <Box cursor='pointer' borderRadius='7px' border='1px' borderColor='gray.300' p='15px' width='100%' align='left'>
                             <Box d='flex' alignItems='center'>
-                                <Image position='relative' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
+                                <Image position='relative' borderRadius='7px' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
                                 <Heading alignItems='center' as='h6' fontWeight='black' size='md'>
                                     Vintage 1960 Minneapolis
                                 </Heading>
@@ -59,9 +59,9 @@ const Popular = () => {
                             </Box>
                         </Box>
                         {/* 3rd column */}
-                        <Box _hover={{ bg: '#f2f2f2' }} cursor='pointer' border='1px' borderColor='gray.300' p='15px' width='100%' align='left'>
+                        <Box cursor='pointer' borderRadius='7px' border='1px' borderColor='gray.300' p='15px' width='100%' align='left'>
                             <Box d='flex' alignItems='center'>
-                                <Image position='relative' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
+                                <Image position='relative' borderRadius='7px' w='50px' mr='15px' src={popularImage} alt='brand' ></Image>
                                 <Heading alignItems='center' as='h6' fontWeight='black' size='md'>
                                     Reno/Sparks Singles and/or Diners and Activities Group
                                 </Heading>
