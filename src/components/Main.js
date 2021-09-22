@@ -44,7 +44,11 @@ const Main = () => {
             </Box> 
 
             <Container maxWidth='container.xl' mt={10}>
-                <Grid templateColumns="repeat(3, 1fr)">
+                <Grid templateColumns={{ sm: 'repeat(1, 1fr)',
+                                         md: 'repeat(3, 1fr)',
+                                         lg: 'repeat(3, 1fr)',
+                                         xl: 'repeat(3, 1fr)',
+                                         base: 'repeat(1, 1fr)'}}>
                     <Box>
                         <Image w='100%' borderRadius='lg' src={imageOne} alt='image three'></Image>
                         <Button colorScheme='teal' variant='link' mt='5'>
