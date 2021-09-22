@@ -104,10 +104,18 @@ const Main = () => {
             </Container>
 
             <Container maxWidth='container.xl' mt='20'>
-                <Grid templateColumns='repeat(2, 1fr)' gap={6}>
+                <Grid templateColumns={{sm: 'repeat(1, 1fr)',
+                                        md: 'repeat(2, 1fr)',
+                                        lg: 'repeat(2, 1fr)',
+                                        xl: 'repeat(2, 1fr)',
+                                        base: 'repeat(1, 1fr)'}} gap={6}>
                     <Box>
-                        <Heading size='lg' mb='7'>What do you want to do?</Heading>
-                        <Box d='flex' alignItems='center' flexDirection='row' w='100%'>
+                        <Heading as='h3' size='lg' mb='7'>What do you want to do?</Heading>
+                        <Box d='flex' alignItems='center' flexDirection={{sm: 'column',
+                                                                          md: 'row',
+                                                                          lg: 'row',
+                                                                          xl: 'row',
+                                                                          base: 'column'}} w='100%'>
                             <Box w='100%' mr='2'>
                                 <FormControl>
                                     <Box pos='relative'>
