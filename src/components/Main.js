@@ -76,25 +76,25 @@ const Main = () => {
                                                                                                 lg: 'space-between',
                                                                                                 xl: 'space-between',
                                                                                                 base: 'flex-start'}}>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
+                    <Badge _hover={{ opacity: "0.9" }} cursor='pointer' borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Boost your career
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
+                    <Badge _hover={{ opacity: "0.9" }} cursor='pointer' borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Find your zen
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
+                    <Badge _hover={{ opacity: "0.9" }} cursor='pointer' borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Get moving
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
+                    <Badge _hover={{ opacity: "0.9" }} cursor='pointer' borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Share launguage + culture
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
+                    <Badge _hover={{ opacity: "0.9" }} cursor='pointer' borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Read with friends
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
+                    <Badge _hover={{ opacity: "0.9" }} cursor='pointer' borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Write together
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
+                    <Badge _hover={{ opacity: "0.9" }} cursor='pointer' borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Hone your craft
                     </Badge>
                 </Box>
