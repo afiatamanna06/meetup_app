@@ -177,9 +177,9 @@ const Footerbottom = () => {
                                                     lg: 'no-wrap',
                                                     xl: 'no-wrap',
                                                     base: 'wrap'}}>
-                        <Link fontSize='sm' mr='5'>
+                        <Box fontSize='sm' mr='5'>
                             © 2021 Meetup
-                        </Link>
+                        </Box>
                         <Link fontSize='sm' mr='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
                             Terms of Service
                         </Link>
