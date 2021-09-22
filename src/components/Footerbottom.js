@@ -180,16 +180,16 @@ const Footerbottom = () => {
                         <Link fontSize='sm' mr='5'>
                             © 2021 Meetup
                         </Link>
-                        <Link fontSize='sm' mr='5'>
+                        <Link fontSize='sm' mr='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
                             Terms of Service
                         </Link>
-                        <Link fontSize='sm' mr='5'>
+                        <Link fontSize='sm' mr='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
                             Privacy Policy
                         </Link>
-                        <Link fontSize='sm' mr='5'>
+                        <Link fontSize='sm' mr='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
                             Cookie Policy
                         </Link>
-                        <Link fontSize='sm' mr='5'>
+                        <Link fontSize='sm' mr='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
                             Help
                         </Link>
                     </Box>
