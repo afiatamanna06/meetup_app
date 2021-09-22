@@ -83,19 +83,19 @@ const Footerbottom = () => {
                             <Heading size='sm'>Meetup</Heading>
                             <List mt='4' spacing={2}>
                                 <ListItem>
-                                    <Link color='#A2A2A2'>About</Link>
+                                    <Link color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>About</Link>
                                 </ListItem>
                                 <ListItem>
-                                    <Link color='#A2A2A2'>Blog</Link>
+                                    <Link color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>Blog</Link>
                                 </ListItem>
                                 <ListItem>
-                                    <Link color='#A2A2A2'>Meetup Pro</Link>
+                                    <Link color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>Meetup Pro</Link>
                                 </ListItem>
                                 <ListItem>
-                                    <Link color='#A2A2A2'>Careers</Link>
+                                    <Link color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>Careers</Link>
                                 </ListItem>
                                 <ListItem>
-                                    <Link color='#A2A2A2'>Apps</Link>
+                                    <Link color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>Apps</Link>
                                 </ListItem>
                             </List>
                         </Box>
