@@ -122,15 +122,21 @@ const Main = () => {
                                                                                                     }}>
                                 <FormControl>
                                     <Box pos='relative'>
-        `                               <Input pl={8} placeholder="Search for 'tennis'" type='text' w='100%' backgroundImage={searchLogo} backgroundPosition='.5rem' backgroundRepeat='no-repeat'>
+        `                               <Input _focus={{ outline: 0 }} pl={8} placeholder="Search for 'tennis'" type='text' w='100%' backgroundImage={searchLogo} backgroundPosition='.5rem' backgroundRepeat='no-repeat'>
                                         </Input>
                                     </Box>
                                 </FormControl>
                             </Box>
-                            <Box w='100%' mr='2'>
+                            <Box w='100%' mr={{sm: '0', md: '2', lg: '2', xl: '2', base: '0'}} flexBasis={{
+                                                                                                        sm: '100%',
+                                                                                                        md: '50%',
+                                                                                                        lg: '50%',
+                                                                                                        xl: '50%',
+                                                                                                        base: '100%'
+                                                                                                    }}>
                                 <FormControl>
                                     <Box pos='relative'>
-        `                               <Input pl={8} placeholder="Location" type='text' w='100%' backgroundImage={locationLogo} backgroundPosition='.5rem' backgroundRepeat='no-repeat'></Input>
+        `                               <Input _focus={{ outline: 0 }} pl={8} placeholder="Location" type='text' w='100%' backgroundImage={locationLogo} backgroundPosition='.5rem' backgroundRepeat='no-repeat'></Input>
                                     </Box>
                                 </FormControl>
                             </Box>
