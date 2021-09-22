@@ -76,25 +76,25 @@ const Main = () => {
                                                                                                 lg: 'space-between',
                                                                                                 xl: 'space-between',
                                                                                                 base: 'flex-start'}}>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
+                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Boost your career
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
+                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Find your zen
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
+                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Get moving
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
+                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Share launguage + culture
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
+                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Read with friends
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
+                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Write together
                     </Badge>
-                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
+                    <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Hone your craft
                     </Badge>
                 </Box>
@@ -141,7 +141,7 @@ const Main = () => {
                                 </FormControl>
                             </Box>
                         </Box>
-                        <Button _hover={{ opacity: "0.8" }} _focus={{ outline: 0 }} color='white' bg='red.200' fontSize='large' w='100%' mt='5' pt='6' pb='6'>
+                        <Button _hover={{ opacity: "0.8" }} _focus={{ outline: 0 }} color='white' bg='red.200' fontSize='large' w='100%' mt='5' pt='6' pb='6' borderRadius='11px'>
                             <Box fontWeight='black'>Search</Box>
                         </Button>
                     </Box>
