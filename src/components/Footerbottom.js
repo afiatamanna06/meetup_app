@@ -14,7 +14,7 @@ const Footerbottom = () => {
                         <Heading size='md'>
                             Create your own Meetup group.
                         </Heading>
-                        <Button _hover={{ opacity: '0.95', color: '#8533ff'}} cursor='pointer' colorScheme='white' variant='outline' ml='4'>
+                        <Button _hover={{ opacity: '0.95', borderColor: 'gray.100'}} border='2px' cursor='pointer' colorScheme='white' variant='outline' ml='4'>
                             Get Started
                         </Button>
                     </Box>
