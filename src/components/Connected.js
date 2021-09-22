@@ -13,7 +13,11 @@ const Connected = () => {
             <Box my='20'>
                 <Container maxWidth='container.xl'>
                     <Box pos='relative' justifyContent='space-between' d='flex' alignItems='center'>
-                        <Box display='block'>
+                        <Box display={{sm: 'none',
+                                       md: 'block',
+                                       lg: 'block',
+                                       xl: 'block',
+                                       base: 'none'}}>
                             <Image w='260px' src={deviceLeft}></Image>
                         </Box>
                         <Box pos='relative' align='center' mx='auto'>
