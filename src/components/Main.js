@@ -14,9 +14,6 @@ import locationLogo from '../assets/location-pin.png'
 import { Button } from '@chakra-ui/button'
 import {
     FormControl,
-    FormLabel,
-    FormErrorMessage,
-    FormHelperText,
     Input,
   } from "@chakra-ui/react"
 
@@ -78,7 +75,7 @@ const Main = () => {
                                                                                                 md: 'space-between',
                                                                                                 lg: 'space-between',
                                                                                                 xl: 'space-between',
-                                                                                                base: 'flex-start',}}>
+                                                                                                base: 'flex-start'}}>
                     <Badge borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100'>
                         Boost your career
                     </Badge>
