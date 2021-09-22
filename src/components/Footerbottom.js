@@ -52,7 +52,11 @@ const Footerbottom = () => {
                             </List>
                         </Box>
 
-                        <Box flex='1' mb='0'>
+                        <Box flex='1' mb={{sm: '10',
+                                            md: '0',
+                                            lg: '0',
+                                            xl: '0',
+                                            base: '4'}}>
                             <Heading size='sm'>Your Account</Heading>
                             <List mt='4' spacing={2}>
                                 <ListItem>
