@@ -116,7 +116,13 @@ const Main = () => {
                                                                           lg: 'row',
                                                                           xl: 'row',
                                                                           base: 'column'}} w='100%'>
-                            <Box w='100%' mr='2'>
+                            <Box w='100%' mr={{sm: '0', md: '2', lg: '2', xl: '2', base: '0'}} flexBasis={{
+                                                                                                        sm: '100%',
+                                                                                                        md: '50%',
+                                                                                                        lg: '50%',
+                                                                                                        xl: '50%',
+                                                                                                        base: '100%'
+                                                                                                    }}>
                                 <FormControl>
                                     <Box pos='relative'>
         `                               <Input pl={8} placeholder="Search for 'tennis'" type='text' w='100%' backgroundImage={searchLogo} backgroundPosition='.5rem' backgroundRepeat='no-repeat'>
@@ -137,7 +143,7 @@ const Main = () => {
                         </Button>
                     </Box>
                     <Box>
-                        <Heading size='lg' mb='7'>See what’s happening</Heading>
+                        <Heading as='h3' size='lg' mb='7'>See what’s happening</Heading>
                         <Box display='flex' flexWrap='wrap' justifyContent='flex-start'>
                             <Badge borderRadius='3xl' py={2} px={5} mr='4' mb='4' color='white' bg='blue.100'>
                                 Starting soon
