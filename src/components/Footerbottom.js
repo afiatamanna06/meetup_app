@@ -51,7 +51,7 @@ const Footerbottom = () => {
                                             lg: '0',
                                             xl: '0',
                                             base: '4'}}>
-                            <Heading size='sm'>Your Account</Heading>
+                            <Heading size='sm'>Discover</Heading>
                             <List mt='4' spacing={2}>
                                 <ListItem>
                                     <Link color='#A2A2A2'>Groups</Link>
@@ -80,17 +80,21 @@ const Footerbottom = () => {
                                             lg: '0',
                                             xl: '0',
                                             base: '4'}}>
-                            <Heading size='sm'>Your Account</Heading>
+                            <Heading size='sm'>Meetup</Heading>
                             <List mt='4' spacing={2}>
                                 <ListItem>
-                                    <Link color='#A2A2A2'>Sign up</Link>
+                                    <Link color='#A2A2A2'>About</Link>
                                 </ListItem>
                                 <ListItem>
-                                    <Link color='#A2A2A2'>Log in</Link>
+                                    <Link color='#A2A2A2'>Blog</Link>
                                 </ListItem>
                                 <ListItem>
-                                    <Link color='#A2A2A2'>Help</Link>
+                                    <Link color='#A2A2A2'>Meetup Pro</Link>
                                 </ListItem>
+                                <ListItem>
+                                    <Link color='#A2A2A2'>Careers</Link>
+                                </ListItem>
+
                             </List>
                         </Box>
                     </Box>
