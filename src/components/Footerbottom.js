@@ -71,7 +71,11 @@ const Footerbottom = () => {
                             </List>
                         </Box>
                     </Box>
-                    <Box justifyContent='space-between' d='flex' flexDirection='row' alignItems='center' mt='15'>
+                    <Box justifyContent='space-between' d='flex' flexDirection={{sm: 'column',
+                                                                                md: 'row',
+                                                                                lg: 'row',
+                                                                                xl: 'row',
+                                                                                base: 'column'}} alignItems='center' mt='15'>
                         <Box d='flex' flexDirection='column'>
                             <Box mb='2'>Follow us</Box>
                             <Box d='flex'>
