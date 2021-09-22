@@ -125,7 +125,11 @@ const Footerbottom = () => {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box d='flex' mt='0'>
+                        <Box d='flex' mt={{sm: '10',
+                                            md: '0',
+                                            lg: '0',
+                                            xl: '0',
+                                            base: '4'}}>
                             <Image _hover={{ opacity: '0.95', filter: 'brightness(85%)' }} cursor='pointer' w='128px' h='38px' mr='6' src={androidAppstore} borderRadius='7px'></Image>
                             <Image _hover={{ opacity: '0.95', filter: 'brightness(85%)' }} cursor='pointer' w='128px' h='38px' src={iosAppstore}></Image>
                         </Box>
