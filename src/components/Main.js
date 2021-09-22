@@ -45,22 +45,22 @@ const Main = () => {
                                          md: 'repeat(3, 1fr)',
                                          lg: 'repeat(3, 1fr)',
                                          xl: 'repeat(3, 1fr)',
-                                         base: 'repeat(1, 1fr)'}}>
-                    <Box>
+                                         base: 'repeat(1, 1fr)'}} gap={5}>
+                    <Box _hover={{ opacity: '0.85'}}>
                         <Image w='100%' borderRadius='lg' src={imageOne} alt='image three'></Image>
                         <Button colorScheme='teal' variant='link' mt='5'>
                         Make new friend
                         <Image w='5%' ml='2' src={rightArrow} alt='right arrow'></Image>
                         </Button>
                     </Box>
-                    <Box>
+                    <Box _hover={{ opacity: '0.85'}}>
                         <Image w='100%' borderRadius='lg' src={imageTwo} alt='image three'></Image>
                         <Button colorScheme='teal' variant='link' mt='5'>
                         Explore the outdoors
                         <Image w='5%' ml='2' src={rightArrow} alt='right arrow'></Image>
                         </Button>
                     </Box>
-                    <Box>
+                    <Box _hover={{ opacity: '0.85'}}>
                         <Image w='100%' borderRadius='lg' src={imageThree} alt='image three'></Image>
                         <Button colorScheme='teal' variant='link' mt='5'>
                         Connect over tech
