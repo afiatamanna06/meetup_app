@@ -27,7 +27,7 @@ const Stories = () => {
                                                             xl: 'repeat(3, 1fr)',
                                                             base: 'repeat(1, 1fr)'}} gap={6}>
                         {/* 1st column */}
-                        <Box width='100%' align='left'>
+                        <Box width='100%' align='left' cursor='pointer'>
                             <Link>
                                 <Image _hover={{ opacity: '0.8' }} mr='15px' src={Storyone} pos='relative' width='100%' alt='brand'></Image>
                                 <Box d='flex' flexDirection='column'>
@@ -37,14 +37,14 @@ const Stories = () => {
                                     </Heading>
                                 </Box>
                             </Link>
-                            <Box>
+                            <Box textColor='gray.600'>
                                 Work friendships don’t need to fade just because you’re working
                                 remotely. Here are three fun ways you can get to know your
                                 colleagues.
                             </Box>
                         </Box>
                         {/* 2nd column */}
-                        <Box width='100%' align='left'>
+                        <Box width='100%' align='left' cursor='pointer'>
                             <Link>
                                 <Image _hover={{ opacity: '0.8' }} mr='15px' src={Storytwo} pos='relative' width='100%' alt='brand'></Image>
                                 <Box d='flex' flexDirection='column'>
@@ -53,7 +53,7 @@ const Stories = () => {
                                     </Heading>
                                 </Box>
                             </Link>
-                            <Box>
+                            <Box textColor='gray.600'>
                                 Since Meetup began nearly 20 years ago, we’ve fostered connections
                                 between more than 50 million people in 190 countries worldwide.
                                 Here are five simple strategies to help you feel more connected
@@ -61,7 +61,7 @@ const Stories = () => {
                             </Box>
                         </Box>
                         {/* 3rd column */}
-                        <Box width='100%' align='left'>
+                        <Box width='100%' align='left' cursor='pointer'>
                             <Link>
                                 <Image _hover={{ opacity: '0.8' }} mr='15px' src={Storythree} pos='relative' width='100%' alt='brand'></Image>
                                 <Box d='flex' flexDirection='column'>
@@ -70,7 +70,7 @@ const Stories = () => {
                                     </Heading>
                                 </Box>
                             </Link>
-                            <Box>
+                            <Box textColor='gray.600'>
                                 Social interaction is a key part of any healthy lifestyle.
                                 Discover all different kinds of events that’ll help you maintain a
                                 fun and fulfilling social life.
