@@ -26,8 +26,8 @@ const Connected = () => {
                                 Stay connected. <br /> Download the app.
                             </Heading>
                             <Box d='flex'>
-                                <Image _hover={{ opacity: '0.95', filter: 'brightness(85%)' }} cursor='pointer' w='180px' p='5' src={iosAppstore}></Image>
-                                <Image _hover={{ opacity: '0.95', filter: 'brightness(85%)' }} cursor='pointer' w='180px' p='5' src={androidAppstore} borderRadius='29px'></Image>
+                                <Image cursor='pointer' w='180px' p='5' src={iosAppstore}></Image>
+                                <Image cursor='pointer' w='180px' p='5' src={androidAppstore} borderRadius='29px'></Image>
                             </Box>
                         </Box>
                         <Box display={{sm: 'none',
