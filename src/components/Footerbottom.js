@@ -24,6 +24,8 @@ const Footerbottom = () => {
                                                             lg: 'row',
                                                             xl: 'row',
                                                             base: 'column'}}>
+                        
+                        {/* 1st column */}
                         <Box flex='1' mb={{sm: '10',
                                             md: '0',
                                             lg: '0',
@@ -42,6 +44,8 @@ const Footerbottom = () => {
                                 </ListItem>
                             </List>
                         </Box>
+
+                        {/* 2nd column */}
                         <Box flex='1' mb={{sm: '10',
                                             md: '0',
                                             lg: '0',
@@ -70,6 +74,7 @@ const Footerbottom = () => {
                             </List>
                         </Box>
 
+                        {/* 3rd column */}
                         <Box flex='1' mb={{sm: '10',
                                             md: '0',
                                             lg: '0',
