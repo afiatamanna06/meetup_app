@@ -23,7 +23,15 @@ const Main = () => {
             <Box>
                 <Container maxWidth="container.xl">
                     <Box d="flex" alignItems="center" flexDirection={{ sm: 'column', md: 'row', lg: 'row', xl: 'row', base: 'column' }} py='20'>
-                        <Box mr='6' ml='20' mb='7'>
+                        <Box mr={{sm: '4',
+                                 md: '6',
+                                 lg: '6',
+                                 xl: '6',
+                                 base: '4'}} ml={{sm: '4',
+                                                  md: '16',
+                                                  lg: '16',
+                                                  xl: '16',
+                                                  base: '4'}} mb='7'>
                             <Heading size='3xl' as='h1'>
                                 <Box fontWeight='black'>Dive in! There are so many things to do on Meetup</Box>
                             </Heading>
@@ -45,24 +53,32 @@ const Main = () => {
                                          md: 'repeat(3, 1fr)',
                                          lg: 'repeat(3, 1fr)',
                                          xl: 'repeat(3, 1fr)',
-                                         base: 'repeat(1, 1fr)'}} gap={5}>
-                    <Box _hover={{ opacity: '0.85'}}>
+                                         base: 'repeat(1, 1fr)'}} gap={5} mr={{sm: '4',
+                                                                                md: '16',
+                                                                                lg: '16',
+                                                                                xl: '16',
+                                                                                base: '4'}} ml={{sm: '4',
+                                                                                                md: '16',
+                                                                                                lg: '16',
+                                                                                                xl: '16',
+                                                                                                base: '4'}} >
+                                                            <Box _hover={{ opacity: '0.85'}}>
                         <Image w='100%' borderRadius='lg' src={imageOne} alt='image three'></Image>
-                        <Button colorScheme='teal' variant='link' mt='3' w='37%'>
+                        <Button colorScheme='teal' variant='link' mt='3' w='37%' pl='6'>
                         Make new friend
                         <Image w='17%' ml='2' src={rightArrow} alt='right arrow'></Image>
                         </Button>
                     </Box>
                     <Box _hover={{ opacity: '0.85'}}>
                         <Image w='100%' borderRadius='lg' src={imageTwo} alt='image three'></Image>
-                        <Button colorScheme='teal' variant='link' mt='3' w='37%' pl='6'>
+                        <Button colorScheme='teal' variant='link' mt='3' w='37%' pl='12'>
                         Explore the outdoors
                         <Image w='17%' ml='2' src={rightArrow} alt='right arrow'></Image>
                         </Button>
                     </Box>
                     <Box _hover={{ opacity: '0.85'}}>
                         <Image w='100%' borderRadius='lg' src={imageThree} alt='image three'></Image>
-                        <Button colorScheme='teal' variant='link' mt='3' w='37%'>
+                        <Button colorScheme='teal' variant='link' mt='3' w='37%' pl='8'>
                         Connect over tech
                         <Image w='17%' ml='2' src={rightArrow} alt='right arrow'></Image>
                         </Button>
