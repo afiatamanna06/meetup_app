@@ -10,7 +10,15 @@ const Footerbottom = () => {
         <div>
             <Box color='white' background='#212121' py='10' mt='5'>
                 <Container maxW='container.xl'>
-                    <Box d='flex' alignItems='center'>
+                    <Box d='flex' alignItems='center' mr={{sm: '4',
+                                                           md: '16',
+                                                           lg: '16',
+                                                           xl: '16',
+                                                           base: '4'}} ml={{sm: '4',
+                                                                            md: '16',
+                                                                            lg: '16',
+                                                                            xl: '16',
+                                                                            base: '4'}}>
                         <Heading size='md'>
                             Create your own Meetup group.
                         </Heading>
@@ -23,7 +31,15 @@ const Footerbottom = () => {
                                                             md: 'row',
                                                             lg: 'row',
                                                             xl: 'row',
-                                                            base: 'column'}}>
+                                                            base: 'column'}} mr={{sm: '4',
+                                                                                    md: '16',
+                                                                                    lg: '16',
+                                                                                    xl: '16',
+                                                                                    base: '4'}} ml={{sm: '4',
+                                                                                                    md: '16',
+                                                                                                    lg: '16',
+                                                                                                    xl: '16',
+                                                                                                    base: '4'}}>
                         
                         {/* 1st column */}
                         <Box flex='1' mb={{sm: '10',
@@ -109,7 +125,15 @@ const Footerbottom = () => {
                                                                                                                 lg: 'center',
                                                                                                                 xl: 'center',
                                                                                                                 base: 'left'}} mt='15'>
-                        <Box d='flex' flexDirection='column'>
+                        <Box d='flex' flexDirection='column' mr={{sm: '4',
+                                                                  md: '16',
+                                                                  lg: '16',
+                                                                  xl: '16',
+                                                                  base: '4'}} ml={{sm: '4',
+                                                                                   md: '16',
+                                                                                   lg: '16',
+                                                                                   xl: '16',
+                                                                                   base: '4'}}>
                             <Box mb='2'>Follow us</Box>
                             <Box d='flex'>
                                 <Link mr='4' href='https://www.facebook.com/meetup/'>
@@ -166,7 +190,15 @@ const Footerbottom = () => {
                                             md: '0',
                                             lg: '0',
                                             xl: '0',
-                                            base: '4'}}>
+                                            base: '4'}}  mr={{sm: '4',
+                                                                md: '16',
+                                                                lg: '16',
+                                                                xl: '16',
+                                                                base: '4'}} ml={{sm: '4',
+                                                                                md: '16',
+                                                                                lg: '16',
+                                                                                xl: '16',
+                                                                                base: '4'}}>
                             <Image cursor='pointer' w='128px' h='38px' mr='6' src={androidAppstore}></Image>
                             <Image cursor='pointer' w='128px' h='38px' src={iosAppstore}></Image>
                         </Box>
@@ -176,7 +208,15 @@ const Footerbottom = () => {
                                                     md: 'no-wrap',
                                                     lg: 'no-wrap',
                                                     xl: 'no-wrap',
-                                                    base: 'wrap'}}>
+                                                    base: 'wrap'}}  mr={{sm: '4',
+                                                                            md: '16',
+                                                                            lg: '16',
+                                                                            xl: '16',
+                                                                            base: '4'}} ml={{sm: '4',
+                                                                                            md: '16',
+                                                                                            lg: '16',
+                                                                                            xl: '16',
+                                                                                            base: '4'}}>
                         <Box fontSize='sm' mr='5'>
                             © 2021 Meetup
                         </Box>
