@@ -1,4 +1,4 @@
-import { Box, Container,Heading } from '@chakra-ui/react'
+import { Box, Container,Heading,Link } from '@chakra-ui/react'
 import React from 'react'
 import { Image } from '@chakra-ui/image'
 import deviceLeft from '../assets/device-left.webp'
@@ -34,8 +34,8 @@ const Connected = () => {
                                 Stay connected. <br /> Download the app.
                             </Heading>
                             <Box d='flex'>
-                                <Image cursor='pointer' w='180px' p='5' src={iosAppstore}></Image>
-                                <Image cursor='pointer' w='180px' p='5' src={androidAppstore} borderRadius='29px'></Image>
+                                <Link href='https://apps.apple.com/us/app/meetup/id375990038'><Image cursor='pointer' w='180px' p='5' src={iosAppstore}></Image></Link>
+                                <Link href='https://play.google.com/store/apps/details?id=com.meetup&hl=en-US'><Image cursor='pointer' w='180px' p='5' src={androidAppstore} borderRadius='29px'></Image></Link>
                             </Box>
                         </Box>
                         <Box display={{sm: 'none',

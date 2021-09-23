@@ -199,16 +199,16 @@ const Footerbottom = () => {
                                                                                 lg: '16',
                                                                                 xl: '16',
                                                                                 base: '4'}}>
-                            <Image cursor='pointer' w='128px' h='38px' mr='6' src={androidAppstore}></Image>
-                            <Image cursor='pointer' w='128px' h='38px' src={iosAppstore}></Image>
+                            <Link href='https://play.google.com/store/apps/details?id=com.meetup&hl=en-US'><Image cursor='pointer' w='128px' h='38px' mr='6' src={androidAppstore}></Image></Link>
+                            <Link href='https://apps.apple.com/us/app/meetup/id375990038'><Image cursor='pointer' w='128px' h='38px' src={iosAppstore}></Image></Link>
                         </Box>
                     </Box>
 
-                    <Box d='flex' mt='20' flexWrap={{sm: 'wrap',
+                    <Box d='flex' mt='10' flexWrap={{sm: 'wrap',
                                                     md: 'no-wrap',
                                                     lg: 'no-wrap',
                                                     xl: 'no-wrap',
-                                                    base: 'wrap'}}  mr={{sm: '4',
+                                                    base: 'wrap'}} mr={{sm: '4',
                                                                             md: '16',
                                                                             lg: '16',
                                                                             xl: '16',
@@ -216,20 +216,24 @@ const Footerbottom = () => {
                                                                                             md: '16',
                                                                                             lg: '16',
                                                                                             xl: '16',
-                                                                                            base: '4'}}>
-                        <Box fontSize='sm' mr='5'>
+                                                                                            base: '4'}} alignItems='top' flexDir={{sm: 'column',
+                                                                                                                                    md: 'row',
+                                                                                                                                    lg: 'row',
+                                                                                                                                    xl: 'row',
+                                                                                                                                    base: 'column'}}>
+                        <Box fontSize='sm' mr='5' mb='5'>
                             © 2021 Meetup
                         </Box>
-                        <Link fontSize='sm' mr='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
+                        <Link fontSize='sm' mr='5' mb='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
                             Terms of Service
                         </Link>
-                        <Link fontSize='sm' mr='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
+                        <Link fontSize='sm' mr='5' mb='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
                             Privacy Policy
                         </Link>
-                        <Link fontSize='sm' mr='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
+                        <Link fontSize='sm' mr='5' mb='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
                             Cookie Policy
                         </Link>
-                        <Link fontSize='sm' mr='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
+                        <Link fontSize='sm' mr='5' mb='5' color='gray.200' _hover={{ textDecoration: 'none', color: '#A2A2A2'}}>
                             Help
                         </Link>
                     </Box>
