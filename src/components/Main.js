@@ -91,7 +91,15 @@ const Main = () => {
                                                                                                 md: 'space-between',
                                                                                                 lg: 'space-between',
                                                                                                 xl: 'space-between',
-                                                                                                base: 'flex-start'}}>
+                                                                                                base: 'flex-start'}} mr={{sm: '4',
+                                                                                                                            md: '16',
+                                                                                                                            lg: '16',
+                                                                                                                            xl: '16',
+                                                                                                                            base: '4'}} ml={{sm: '4',
+                                                                                                                                            md: '16',
+                                                                                                                                            lg: '16',
+                                                                                                                                            xl: '16',
+                                                                                                                                            base: '4'}}>
                     <Badge _hover={{ opacity: "0.9" }} cursor='pointer' borderRadius='3xl' py={2} px={4} mr='4' mb='4' color='white' bg='blue.100' textTransform='none' fontSize='medium'>
                         Boost your career
                     </Badge>
@@ -121,7 +129,15 @@ const Main = () => {
                                         md: 'repeat(2, 1fr)',
                                         lg: 'repeat(2, 1fr)',
                                         xl: 'repeat(2, 1fr)',
-                                        base: 'repeat(1, 1fr)'}} gap={6}>
+                                        base: 'repeat(1, 1fr)'}} gap={6} mr={{sm: '4',
+                                                                                md: '16',
+                                                                                lg: '16',
+                                                                                xl: '16',
+                                                                                base: '4'}} ml={{sm: '4',
+                                                                                                md: '16',
+                                                                                                lg: '16',
+                                                                                                xl: '16',
+                                                                                                base: '4'}}>
                     <Box>
                         <Heading as='h3' size='lg' mb='7'>What do you want to do?</Heading>
                         <Box d='flex' alignItems='center' flexDirection={{sm: 'column',
