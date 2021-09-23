@@ -12,7 +12,15 @@ const Connected = () => {
         <div>
             <Box my='20'>
                 <Container maxWidth='container.xl'>
-                    <Box pos='relative' justifyContent='space-between' d='flex' alignItems='center'>
+                    <Box pos='relative' justifyContent='space-between' d='flex' alignItems='center'  mr={{sm: '4',
+                                                                                                            md: '16',
+                                                                                                            lg: '16',
+                                                                                                            xl: '16',
+                                                                                                            base: '4'}} ml={{sm: '4',
+                                                                                                                            md: '16',
+                                                                                                                            lg: '16',
+                                                                                                                            xl: '16',
+                                                                                                                            base: '4'}}>
                         <Box display={{sm: 'none',
                                        md: 'block',
                                        lg: 'block',
