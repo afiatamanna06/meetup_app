@@ -10,7 +10,15 @@ import { Button } from '@chakra-ui/react'
 const ItWorks = () => {
     return (
         <div>
-            <Box>
+            <Box mr={{sm: '4',
+                      md: '16',
+                      lg: '16',
+                      xl: '16',
+                      base: '4'}} ml={{sm: '4',
+                                       md: '16',
+                                       lg: '16',
+                                       xl: '16',
+                                       base: '4'}}>
                 <Container maxWidth='container.xl' my='20'>
                     <Heading as='h3' textAlign='center' size='lg' pb='2'>How Meetup works</Heading>
                     <Box align='center' mx='auto' maxWidth='700px' pb='10' fontSize='xl'>
