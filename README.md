@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project is a UI clone of [meet up app](https://www.meetup.com/) .This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This was built using React.js and Chakra-UI . The UI is made to be both desktop and mobile friendly.
+This project is a UI clone of [meet up app](https://www.meetup.com/) .This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This was built using React.js and Chakra-UI . The UI is made to be both desktop and mobile friendly. Check the UI at [meetup-clone](meetup-app-alpha.vercel.app)
 
 ## To get Started 
 
